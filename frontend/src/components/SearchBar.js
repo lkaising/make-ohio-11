@@ -1,27 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import './SearchBar.css';
 
-const SearchBar = ({ onSearch, isLoading }) => {
+const SearchBar = ({ onSearch, isLoading, hasResults }) => {
   const [query, setQuery] = useState('');
   const [city, setCity] = useState('');
   const [priceLevel, setPriceLevel] = useState([]);
-  const [cities, setCities] = useState([]);
   const [showAdvanced, setShowAdvanced] = useState(false);
 
-  useEffect(() => {
-    // Fetch available cities when component mounts
-    const fetchCities = async () => {
-      try {
-        const response = await fetch('http://localhost:8000/cities');
-        const data = await response.json();
-        setCities(data.cities || []);
-      } catch (error) {
-        console.error('Error fetching cities:', error);
-      }
-    };
-
-    fetchCities();
-  }, []);
+  // Track if user has typed anything - to hide examples
+  const shouldShowExamples = query.trim().length === 0 && !hasResults;
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -75,22 +62,24 @@ const SearchBar = ({ onSearch, isLoading }) => {
           </button>
         </div>
 
-        <div className="examples-container">
-          <p className="examples-title">Try an example:</p>
-          <div className="example-queries">
-            {exampleQueries.map((example, index) => (
-              <button
-                key={index}
-                type="button"
-                className="example-query"
-                onClick={() => handleExampleClick(example)}
-                disabled={isLoading}
-              >
-                {example}
-              </button>
-            ))}
+        {shouldShowExamples && (
+          <div className="examples-container">
+            <p className="examples-title">Try an example:</p>
+            <div className="example-queries">
+              {exampleQueries.map((example, index) => (
+                <button
+                  key={index}
+                  type="button"
+                  className="example-query"
+                  onClick={() => handleExampleClick(example)}
+                  disabled={isLoading}
+                >
+                  {example}
+                </button>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
 
         <div className="advanced-search">
           <button 
@@ -111,10 +100,9 @@ const SearchBar = ({ onSearch, isLoading }) => {
                   onChange={(e) => setCity(e.target.value)}
                   disabled={isLoading}
                 >
-                  <option value="">All Cities</option>
-                  {cities.map((city, index) => (
-                    <option key={index} value={city}>{city}</option>
-                  ))}
+                  <option value="">All Available Cities</option>
+                  <option value="columbus">Columbus</option>
+                  <option value="future" disabled>More cities coming soon!</option>
                 </select>
               </div>
               

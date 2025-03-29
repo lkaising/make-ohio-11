@@ -1,8 +1,19 @@
 .header {
-    background-color: #f8564b;
+    background: linear-gradient(135deg, #ff4b2b 0%, #ff416c 100%);
     color: white;
-    padding: 2rem 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+  }
+  
+  .header::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.05), transparent);
   }
   
   .header-container {
@@ -13,27 +24,39 @@
   
   .header-title {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 700;
+    letter-spacing: 0.5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
   }
   
   .header-subtitle {
-    margin: 0.5rem 0 0;
-    font-size: 1.2rem;
+    margin: 0.8rem 0 0;
+    font-size: 1.3rem;
     font-weight: 300;
     opacity: 0.9;
+    max-width: 600px;
+    display: inline-block;
+    line-height: 1.4;
+    animation: fadeIn 0.7s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
   }
   
   @media (max-width: 768px) {
     .header {
-      padding: 1.5rem 1rem;
+      padding: 1.8rem 1rem;
     }
     
     .header-title {
-      font-size: 2rem;
+      font-size: 2.2rem;
     }
     
     .header-subtitle {
-      font-size: 1rem;
+      font-size: 1.1rem;
     }
   }

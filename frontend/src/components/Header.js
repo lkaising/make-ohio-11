@@ -6,7 +6,7 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <h1 className="header-title">Restaurant Finder</h1>
-        <p className="header-subtitle">Find the perfect dining spot with natural language search</p>
+        <p className="header-subtitle">Discover your next favorite dining spot with AI-powered recommendations</p>
       </div>
     </header>
   );

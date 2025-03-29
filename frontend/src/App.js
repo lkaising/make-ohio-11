@@ -46,7 +46,7 @@ function App() {
       <Header />
       
       <main className="content">
-        <SearchBar onSearch={handleSearch} isLoading={isLoading} />
+        <SearchBar onSearch={handleSearch} isLoading={isLoading} hasResults={results !== null} />
         
         {isLoading && (
           <div className="loading-container">
@@ -79,8 +79,8 @@ function App() {
                 <p>Our system understands your preferences and matches them to the best restaurants.</p>
               </div>
               <div className="feature">
-                <h3>Ohio-Specific Database</h3>
-                <p>Curated collection of restaurants across Ohio.</p>
+                <h3>Growing Database</h3>
+                <p>Starting with Columbus, with more cities coming soon!</p>
               </div>
             </div>
           </div>

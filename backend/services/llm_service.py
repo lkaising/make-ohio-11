@@ -139,9 +139,9 @@ class LLMService:
         # Load the model
         model = genai.GenerativeModel('gemini-2.5-pro-exp-03-25')
         
-        # Construct the prompt with updated expected output
+        # Construct the improved prompt with updated expected output
         prompt = f"""
-You are a restaurant recommendation assistant for Ohio.
+You are a restaurant recommendation assistant.
 Your task is to recommend restaurants based on the user's query.
 Use only the restaurant information provided below. Do not make up any restaurants.
 
@@ -156,22 +156,22 @@ For each restaurant, provide:
 2. Address
 3. Rating (out of 5)
 4. Price level
-5. A brief explanation of why it matches the user's query
-6. A few key details about the restaurant (cuisine, popular dishes, etc.)
+5. A brief explanation of why this restaurant is a good match for the query. Focus on the positive aspects and highlight what makes this restaurant appealing. Do not reference "the user's request" or "what the user wants" directly, just describe the restaurant's qualities.
+6. Key details about the restaurant (cuisine, popular dishes, etc.) written in a clear, concise format.
 
-Also provide a brief analysis of what the user seems to be looking for.
+Also provide a brief analysis of what the query is looking for.
 
 Format your response as a JSON object with the following structure:
 {{
-  "query_analysis": "Brief analysis of what the user is looking for",
+  "query_analysis": "Brief analysis of what the query is looking for",
   "recommendations": [
     {{
       "name": "Restaurant Name",
       "address": "Restaurant Address",
       "rating": "4.5/5",
       "price_level": "$",
-      "match_reasons": "Why this restaurant matches the query",
-      "details": "Key details about this restaurant"
+      "match_reasons": "This restaurant offers authentic dishes with mild spice options, creating flavorful meals without overwhelming heat. The menu features traditional preparation methods and has received praise for maintaining culinary traditions.",
+      "details": "Cuisine: Italian. Known for house-made pasta. Popular dishes include Carbonara and Tiramisu. Cozy atmosphere with affordable prices."
     }},
     ...
   ]
