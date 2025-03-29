@@ -1,0 +1,1372 @@
+[
+  {
+    "place_id": "ChIJ54-FCqGPOIgRjhO6VnRHI6I",
+    "name": "Habibi Grill",
+    "address": "1131 N 4th St, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 39.98607200000001,
+    "lng": -82.9996833,
+    "rating": 4.6,
+    "user_ratings_total": 690,
+    "price_level": 2,
+    "website": "https://www.habibigrill614.com/",
+    "phone": "(614) 999-9909",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "Brandi Jones",
+        "rating": 5,
+        "text": "On my first trip to Ohio, a staff member at the airport rental center suggested this restaurant, and the culinary experience exceeded expectations. The lamb shank entree I ordered was expertly prepared, with the lamb cooked to perfection, possessing a delicate flavor profile, and a tender, moist texture. The accompanying rice was cooked to perfection and seasoned judiciously, with a generous portion provided. The vegetables were also noteworthy. The service was attentive, with my meal arriving quickly, hot, and freshly prepared.\n\n⭐️⭐️⭐️⭐️⭐️",
+        "time": 1737769486
+      },
+      {
+        "author_name": "V D",
+        "rating": 5,
+        "text": "I've been here a few times and crave it often! The restaurant itself is pretty spacious and has two dining areas. The parking is a bit tricky in their lot but there's street parking available. The restaurant is usually lively and busy, but it's welcoming.\n\nThere's a self serve station for plates, utensils, seasonings, and water!\nWe usually get a couple entrees to share and you really can't go wrong with anything. They also have platter options for groups and their portions are decently sized and filling.\nI really enjoy their lamb and beef options, they're flavorful and made well. Their hummus is absolutely delicious, I recommend! I also liked their spicy potato side dish, it was very good. I also recommend their spiced chai, it's warm, flavorful, and sweet.\nOverall, you can't go wrong and you'll be back to try it all.\n\nStaff is always kind, always helpful, and they'll take care of you!\nI recommend them for groups, casual date, tasty food, and a good experience! Have been back many times and will continue to come back.",
+        "time": 1730745820
+      },
+      {
+        "author_name": "Binté Amer",
+        "rating": 5,
+        "text": "Food was served quickly and fresh. Taste hit all the right spots. Environment very family friendly. Staff super friendly. Quick service. Thank you so much for the delightful food! Came here twice and will come again also !",
+        "time": 1736687912
+      },
+      {
+        "author_name": "Philippe Paul",
+        "rating": 5,
+        "text": "Walked in to a very welcoming staff who was able to assist me with placing my to-go order. Ordered the savory Lamb Shank which came with yellow rice and taziki sauce, crushed lentil soup (lemon, carrots, garlic and their special spice blend)c baklava (4 pieces), and their delicious Freez Mix carbonated pineapple & coconut flavored drink. Loved everything I ordered. Sit was a challenge because there are too many great options on that menu.\nThe food was AMAZING!",
+        "time": 1733689769
+      },
+      {
+        "author_name": "Angie Cooper",
+        "rating": 5,
+        "text": "It’s unique do it yourself style has grown on me. It was fun. Great vibes. Comfortable establishment. Friendly staff. The food is excellent the flavors were an experience in itself. Definitely try this place",
+        "time": 1731202436
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "$$",
+    "popular_dishes": [
+      "Staff"
+    ],
+    "descriptors": [
+      "romantic",
+      "late_night",
+      "quick_service",
+      "comfort_food",
+      "casual",
+      "family_friendly",
+      "authentic",
+      "takeout"
+    ],
+    "sentiment": "very positive",
+    "profile": "Habibi Grill is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.6/5. It is known for being romantic, late night, quick service, comfort food, casual, family friendly, authentic and takeout. A popular dish is Staff."
+  },
+  {
+    "place_id": "ChIJEYm2JaWPOIgRPlZjn43AyCk",
+    "name": "The O on Lane",
+    "address": "352 W Lane Ave, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 40.00679290000001,
+    "lng": -83.0188285,
+    "rating": 4.6,
+    "user_ratings_total": 206,
+    "price_level": 2,
+    "website": "http://www.theoonlane.com/",
+    "phone": "(614) 745-2005",
+    "types": [
+      "restaurant",
+      "bar",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "E B",
+        "rating": 5,
+        "text": "Excellent, friendly, service.  The toasted ravioli with homemade sauce is perfect. The pepperoni pizza is an A+ delicious, fresh, and one of the best in town.  The atmosphere is really nice and the vibe is great!!",
+        "time": 1729209108
+      },
+      {
+        "author_name": "Alexandra R",
+        "rating": 4,
+        "text": "We came here on game day! We ordered off the game day menu, the pizza and loaded fries were pretty good! Food came out fast and service was prompt! The only thing that might bother some people is the loud music, but some people may enjoy the “party” vibe! Glad we tried it but probably try someplace different next time we visit town!",
+        "time": 1725159428
+      },
+      {
+        "author_name": "Mike Layton",
+        "rating": 5,
+        "text": "Very good food, pizza was awsome, staff very friendly and outgoing.",
+        "time": 1738105492
+      },
+      {
+        "author_name": "Karan Mehra",
+        "rating": 5,
+        "text": "Great pizza, server and atmosphere. Server was super friendly and accommodating to menu tweaks. The food was made quickly and the pizza was delicious. The chef got the pizza crust right. Was glad we stopped here for dinner when on campus.",
+        "time": 1736646736
+      },
+      {
+        "author_name": "Steven Kinell",
+        "rating": 4,
+        "text": "The pizza isn't east coast style but it tastes great. The highlight is the dough which is just about perfect. It's perfectly cooked and has just the right amount of black on it. If you never eat your crust, you will here.",
+        "time": 1701662029
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant",
+      "Bar/Pub"
+    ],
+    "price_display": "$$",
+    "popular_dishes": [
+      "The Pizza"
+    ],
+    "descriptors": [
+      "comfort_food",
+      "quick_service",
+      "authentic"
+    ],
+    "sentiment": "very positive",
+    "profile": "The O on Lane is a Restaurant, Bar/Pub restaurant in columbus with a $$ price range. It has a rating of 4.6/5. It is known for being comfort food, quick service and authentic. A popular dish is The Pizza."
+  },
+  {
+    "place_id": "ChIJHVLuoAuPOIgRanqnJddZggQ",
+    "name": "['plas]",
+    "address": "21 E 5th Ave #101, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 39.986933,
+    "lng": -83.0047463,
+    "rating": 4.8,
+    "user_ratings_total": 307,
+    "price_level": 0,
+    "website": "http://www.plasfoodanddrink.com/",
+    "phone": "(614) 725-5700",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "The Chemo Tech",
+        "rating": 5,
+        "text": "We decided to try the chefs whim menu with the wine pairings. Honestly such a great value for the price. The menu states that it’s 5-8 courses. Ours ended up being 6 with a bonus appetizer. See photos. Ours happened to still be on the winter menu. We can wait to go back to try the spring menu, we will most definitely be doing the chefs whim menu again. Drew was our server he was fantastic and knowledgeable on the menu offerings. Jackie was the bartender that assisted with the wine pairing, she was so knowledgeable on every wine that was served and seemed so passionate about the wines, origins and notes. Truly an exceptional experience at [‘plas].",
+        "time": 1742093144
+      },
+      {
+        "author_name": "Mackenzie Balle",
+        "rating": 4,
+        "text": "Really glad we went! They do an amazing job with their menu - mixing flavors that you wouldn’t think would go together. With that being said, I did feel like it was missing something. Everything I ate was delicious… but it wasn’t 10/10. I’m not quite sure what it was missing, but that X factor just wasn’t there for me. They do an incredible job however, and the taste, texture and look of the food is very high end.\n\nSomething I was disappointed in however, was the restaurant’s ambience. With such quality food I expected the vibe to match. The tables and wicker placemats just didn’t live up to the vision I had when I thought of this quaint little place before stepping foot inside.",
+        "time": 1730147892
+      },
+      {
+        "author_name": "Cristian Glez",
+        "rating": 4,
+        "text": "The duck entree was amazing! I love duck, and I really enjoyed how it was prepared here.\n\nI decided to order the panna cotta appetizer since I've never had panna cotta in a savory dish - it was weird. It was the kind of weird you get when people try a little too hard to be creative... The creamy custard with the umami broth and apples plus mushrooms was not a good pairing. This shouldn't even be on the menu.\n\nFor dessert, we had the apple cheesecake and that was forgettable.\n\nI question whether I'd want to ever come back to this restaurant. The first thing I encountered after parking on the side street was an incoherent, screaming crackhead unintelligibly approaching me. Great staff and service once you get inside the restaurant.",
+        "time": 1730339024
+      },
+      {
+        "author_name": "Josh Hahn",
+        "rating": 5,
+        "text": "Where do I start, we had the chef's whim and it was amazing! Every course that came out was amazing. Taste, presentation, and timing. We also did the wine pairing with it. Jackie knows her stuff. All the staff was so happy and knowledgeable. I can't express how amazing this dining experience was.",
+        "time": 1742732827
+      },
+      {
+        "author_name": "Matthew Agosto",
+        "rating": 5,
+        "text": "My wife and I came here for our 1st anniversary dinner while we were in town for the week. She is Vegan and there are many options around that cater, however I was looking for something that we could walk to and intimate. 'plas was the perfect location. We did the vegan formaggio board which was a meal in itself. However, I was eying the 'Chef's Whim' as it could be made entirely vegan. 5 courses, all shown in the pictures. We split that and as she says, it was some of the best food she has ever had. We also did a drink pairing with it which was phenomenal. This was a late Tuesday night, so we nearly had the restaurant to ourselves which just made the experience over the top. It truly felt like we had a private dinner experience. Only the meatball was the on menu vegan item that the chef prepared, which was fantastic. However, everything else was superb. I try to take my wife to places that have good vegan options, but we don't have as much in the Cleveland area. Not to this level. So I am glad we went with the Whim because it was just a surprise the whole night, with nothing short of perfection. The entire staff was excellent and we cannot wait to come back! The food courses were 1) spring roll, 2) vegan sashimi, 3) chickn meatball, savory crepes (our favorite), and a fruit desert.",
+        "time": 1726847846
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "Unknown",
+    "popular_dishes": [
+      "Ours",
+      "Jackie",
+      "They",
+      "With",
+      "This"
+    ],
+    "descriptors": [
+      "romantic",
+      "late_night",
+      "authentic",
+      "healthy",
+      "takeout"
+    ],
+    "sentiment": "very positive",
+    "profile": "['plas] is a Restaurant restaurant in columbus with a Unknown price range. It has a rating of 4.8/5. It is known for being romantic, late night, authentic, healthy and takeout. Popular dishes include Ours, Jackie, They, With and This."
+  },
+  {
+    "place_id": "ChIJx1J9hpvtN4gR5I2UykFdeUw",
+    "name": "Modern Southern Table",
+    "address": "1086 N 4th St, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 39.9851989,
+    "lng": -82.99866480000001,
+    "rating": 4.4,
+    "user_ratings_total": 394,
+    "price_level": 1,
+    "website": "http://www.modernsoutherntable.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=16557136832257224550",
+    "phone": "(614) 505-2637",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "KALVIN FOWLER",
+        "rating": 5,
+        "text": "First time here , location was east to find and plenty of parking .  There were so many options in the place , but I can for the soul food .  The food was actually really really good . I had the fried catfish with yams and collard greens . Also had the kool-aid , was about $25 .  Yams were sweet and delicious, greens were also very good . The catfish and cornbread both were cooked to perfection. I would highly recommend this place . My only critique is the cashiers took like 7 minutes to acknowledge my presence. She Was packaging another order ,  but could have at least said “hi, I’ll be with you in one second “ vs awkward silence . I was gonna walk away and try something else when she finally asked what I’d like to have . Other wise good experience",
+        "time": 1734632754
+      },
+      {
+        "author_name": "Kareem Harris",
+        "rating": 3,
+        "text": "I ordered the Catfish special that comes with two pieces of catfish and two sides for a total of $25.95 w/ tip. The service was quick and the manager was easy going and answered all of my questions as a first timer.\n\nMy order included two pieces of catfish with a side of greens and Mac. The catfish was seasoned beautifully but the greens lacked flavor. The Mac and Cheese was really dry and had practically no flavoring.\n\nI would try them again because I hear the Gumbo is really tasty.",
+        "time": 1734228143
+      },
+      {
+        "author_name": "Michael Santostefano",
+        "rating": 5,
+        "text": "I wish I had taken a picture before I dug in. Fantastic food, the batter on the chicken was amazing. Super light and crispy. I went with the white meat and the breast and wing was awesome.  Well worth the extra dollar. Honestly the entire meal was underpriced. The red rice was great and solid Mac and cheese. The staff was super friendly, even told me it would be a long wait and my food was ready in 10 min. Really cool food hall but this is the spot to hit up. Check it out, you won’t be disappointed!",
+        "time": 1732402938
+      },
+      {
+        "author_name": "Candace Miller",
+        "rating": 5,
+        "text": "I loveeeeeee modern southern table!!!! This restaurant right here needs to be a franchise hands down!!!!.... The food is always hot and fresh and on point every single time I order. My husband is a huge picky eater and modern southern table is his favorite he orders the chicken dinners   twice a day 7days a week!.... the flavor of the food is literally the Alabama touch for real!!! You will never be disappointed!!!\nSorry about the picture I started eating it before I took a picture.. it's so good 😊\nCatfish dinner with 2 sides and cornbread 🤤🤤🥰🥰😋😋😋",
+        "time": 1736560529
+      },
+      {
+        "author_name": "Tonya Johnson-Jenkins",
+        "rating": 3,
+        "text": "Service here was amazing! The cashier walked us through our confusion on what we thought we should order gracefully.\n\n5 piece wings were served hot, fried fresh and were seasoned well however they were super small. Ordered regular and the ones with the dust. I think we should have gotten the 2 piece meal because it would have been a better deal but we were not sure originally on what to order.\n\nThey were out of the rice so we tried Greens and Mac n cheese were tasty. Cornbread was also good. Would not mind coming back to try other menu items like the fish and other items when we come back to town l.",
+        "time": 1728906410
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "$",
+    "popular_dishes": [
+      "Catfish",
+      "The Chicken"
+    ],
+    "descriptors": [
+      "quick_service",
+      "authentic"
+    ],
+    "sentiment": "positive",
+    "profile": "Modern Southern Table is a Restaurant restaurant in columbus with a $ price range. It has a rating of 4.4/5. It is known for being quick service and authentic. Popular dishes include Catfish and The Chicken."
+  },
+  {
+    "place_id": "ChIJDdUNHSiPOIgRsyv2nwaJ4fw",
+    "name": "The Guild House",
+    "address": "624 N High St, Columbus, OH 43215, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 39.9751103,
+    "lng": -83.00295849999999,
+    "rating": 4.5,
+    "user_ratings_total": 1804,
+    "price_level": 3,
+    "website": "https://theguildhousecolumbus.com/",
+    "phone": "(614) 280-9780",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "Natalie H",
+        "rating": 4,
+        "text": "I recently dined at The Guild House, and overall, it was a pleasant experience. The decor is truly beautiful, creating a warm and inviting atmosphere that sets the stage for an enjoyable meal.\n\nThe menu is versatile, offering a variety of options that cater to different tastes and preferences. The food was great—every dish we tried was delicious and thoughtfully prepared, making for a satisfying dining experience.\n\nHowever, the service left something to be desired. While we noticed other waiters checking on their tables like clockwork, our waitress was barely there. This inconsistency in service was a bit disappointing, but it didn't completely overshadow the positive aspects of our visit.\n\nOverall, The Guild House is still worth a visit, depending on the server one gets. With its beautiful decor, versatile menu, and great food, it has the potential to be a fantastic dining experience.",
+        "time": 1741235992
+      },
+      {
+        "author_name": "Jazzy Belle Of Arc",
+        "rating": 5,
+        "text": "Came in on a Monday after having lived in Columbus over 2 decades ago and not visiting since. The Downtown scene has changed significantly for the better and this restaurant is definitely a gem on top of an onslaught of pretty decent other options. Had the burrata on top of toast. Wish the schmear of burrata could have been more heavy handed, but the pickled red onions on top really cuts through the richness of the cheese as a welcome addition.  The broth that enrobed the dumplings was phenomenal and the veggies especially the mushrooms were blanched to perfection, but the dumplings themselves were a bit too al dente for me.  The serve was great and checked in on us at appropriate intervals.  His suggestion to try the cocktail of the moment was impeccable especially since we told him how much we adore gin. Won't hesitate to come back next time I'm back in town",
+        "time": 1742276780
+      },
+      {
+        "author_name": "Megan Johnson",
+        "rating": 5,
+        "text": "We went for a double date while in town for a friend's wedding. The food was great, and our server was fantastic! The lobster angolotti was my favorite of the dishes we ordered...it was cooked perfectly and so flavorful. The chicken dish was a little dry, but the beans with it were amazing. Could have been a standalone dish. This was the best carrot cake we've ever had.",
+        "time": 1740005141
+      },
+      {
+        "author_name": "Vladimir Terekhin",
+        "rating": 5,
+        "text": "Amazing place! Nice, quiet music, friendly staff, beautiful bar, incredible food! I was here for brunch and had local wagyu and lobster and eggs along with some cocktails and everything was great! Thank you for amazing experience, much success to you!",
+        "time": 1733081577
+      },
+      {
+        "author_name": "Richard Sparks",
+        "rating": 5,
+        "text": "I came here during the Arnold Sports Festival. I had the special protein breakfast sandwich and the overnight oats. It was one of the best, if not the best, breakfasts I have ever had. Amazing chill environment and very positive energy!",
+        "time": 1740926794
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "$$$",
+    "popular_dishes": [
+      "The Guild House",
+      "This"
+    ],
+    "descriptors": [
+      "romantic",
+      "casual",
+      "quick_service",
+      "authentic"
+    ],
+    "sentiment": "very positive",
+    "profile": "The Guild House is a Restaurant restaurant in columbus with a $$$ price range. It has a rating of 4.5/5. It is known for being romantic, casual, quick service and authentic. Popular dishes include The Guild House and This."
+  },
+  {
+    "place_id": "ChIJ6-GQmtqOOIgRhFrGB14qQIk",
+    "name": "Bodega",
+    "address": "1044 N High St, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 39.98371900000001,
+    "lng": -83.0046218,
+    "rating": 4.4,
+    "user_ratings_total": 957,
+    "price_level": 2,
+    "website": "https://www.columbusbodega.com/",
+    "phone": "(614) 299-9399",
+    "types": [
+      "restaurant",
+      "bar",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "Keithia Toles",
+        "rating": 4,
+        "text": "I visited Bodega on a Saturday night with friends. The staff were friendly and attentive. They assisted us with finding a table when we booked a reservation incorrectly.The restaurant decor was nice. The food was good as well. The Buffalo Chicken Dip was an 8/10. I would give the Cripsy Chicken Sandwich (Nashville Hot Chicken Style) a 7/10. I liked the sauce but the chicken itself wasn’t very well seasoned, though it was nicely cooked. The fries were an 8/10 with a good balance of crispiness and flavor. The Moscow Mule was also an 8/10. The taste was good. I didn’t feel as much of a buzz as I usually do with a mule, but that could have been due to me drinking my cocktail a little slower than usual. I would order the drink again.\n\nA few critiques are that they were out of white wine and therefore couldn’t make a drink one of my friends was interested in. They also switched the vibe of the restaurant around 10 o’clock. It took on more of a bar/club scene. Staff stationed themselves at the door and began checking people’s I.D.’s prior to entry and a DJ started playing really loud music that made it difficult to hear one another as we talked at our table. This wasn’t necessarily a bad thing. The DJ sounded good. It just wasn’t the setting we were looking for. It would have been nice if the staff would have communicated this switch to us a few minutes prior or when we arrived, so we’d have a heads up.\n\nOverall, I enjoyed my visit and I would return.",
+        "time": 1737897905
+      },
+      {
+        "author_name": "Cheyenne Cararo",
+        "rating": 5,
+        "text": "The bartender Johnathan provided excellent service and offered a warm and welcoming atmosphere. They were attentive and efficient, ensuring I always had a refill on my beer. The beer selection was great, and Johnathan had great knowledge of all drinks. Overall, a great experience with friendly and skilled service that made the night more enjoyable.",
+        "time": 1742739607
+      },
+      {
+        "author_name": "Jay Morris",
+        "rating": 1,
+        "text": "Quality has definitely declined over the last 7 months. They are consistently out of about half the beers on the menu, the wings are considerably less tasty (& less saucy) than they used to be, and the portion amount of the truffle fries side item is almost half the amount as it used to be even just last summer 2024. I don't know what has happened since then, but it's definitely become kind of a bummer to come here. Prices have gone up too; which obviously is understandable, but the quality and amount are declining...Gotta find a new half-off wing/beer place. Sad to say that because we used to love this place.",
+        "time": 1741385117
+      },
+      {
+        "author_name": "Peter Kopechek",
+        "rating": 4,
+        "text": "The atmosphere is great, as the brick and lighting create a great ambiance. Food was good, though not large portions, and they overcharged us for the special.\n\nWe went for a date night and service was quick, however they waited to seat us and have us order before notifying us there was a private event in the dining room and we'd have to leave in 30 minutes.",
+        "time": 1737410205
+      },
+      {
+        "author_name": "The 614",
+        "rating": 5,
+        "text": "The food here is great! I love Sunday brunch best chicken and waffles I have ever had (imo). Just make sure to arrive before 2pm as the kitchen closes for one hour from 3-4pm. Also in my opinion they do get short staffed when they get busy. There has been a few times it’s taken quit a long time to wait for the food and also the server may not check back after delivery of the food and I have had to flag them down for the check on more than one occasion. I don’t fault them as it’s a small place and gets full really fast at brunch.",
+        "time": 1691342441
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant",
+      "Bar/Pub"
+    ],
+    "price_display": "$$",
+    "popular_dishes": [
+      "They",
+      "Overall",
+      "Johnathan"
+    ],
+    "descriptors": [
+      "romantic",
+      "quick_service",
+      "takeout",
+      "authentic"
+    ],
+    "sentiment": "neutral",
+    "profile": "Bodega is a Restaurant, Bar/Pub restaurant in columbus with a $$ price range. It has a rating of 4.4/5. It is known for being romantic, quick service, takeout and authentic. Popular dishes include They, Overall and Johnathan."
+  },
+  {
+    "place_id": "ChIJS9HaokePOIgRz2M6mceHz7w",
+    "name": "Domo Sushi Kitchen Bar",
+    "address": "976 N High St, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 39.9822577,
+    "lng": -83.00434140000002,
+    "rating": 4.6,
+    "user_ratings_total": 138,
+    "price_level": 2,
+    "website": "http://domoskb.com/",
+    "phone": "(614) 456-7005",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "Jessica Nathan (The White Rabbit)",
+        "rating": 5,
+        "text": "One of the most unique, delicious dinners I’ve had in a while. Stop in for some top notch sushi with a creative flair. Most unique dish - a blend of Italian and Japanese- carbonara udon?!?! Sooo good!!",
+        "time": 1730065792
+      },
+      {
+        "author_name": "Ayeesha Barnes",
+        "rating": 5,
+        "text": "I had a selfcare day and decided I wanted sushi I’m so glad I picked this place everything was amazing down to the service the guy behind the bar made me feel very comfortable and informed me of things on the menu it was happy hour as well so I got a strawberry smash cocktail, the fried chicken was amazing! Seasoned to perfection and the tiger sushi roll was so delicious I ate it all definitely will be back",
+        "time": 1737928234
+      },
+      {
+        "author_name": "Bryan Griffith",
+        "rating": 5,
+        "text": "Delicious expansive menu of Japanese, Korean, sushi, and fusion dishes. The food was delicious and the service was attentive and friendly.\n\nWe will be back soon.",
+        "time": 1737082047
+      },
+      {
+        "author_name": "Alena Sirichotiratana",
+        "rating": 5,
+        "text": "Had the best time this Thursday bringing my family in! They were visiting for the holidays and wanted to grab an early dinner. They have an amazing happy hour for drinks and food which the host told us about. There was a wide range of drinks for everyone’s taste and even n/a ones for those of us participating in dry January! Our server was so helpful with recommendations and answering and questions we had as well as accommodating for allergies. Overall just a great time and experience. Already made a reservation for date night next week!",
+        "time": 1736022585
+      },
+      {
+        "author_name": "Dani Myers Glynn",
+        "rating": 5,
+        "text": "My husband and I came here for a date night. We saw they opened recently and love exploring new  restaurants in the neighborhood. We were not disappointed!!! Everything was incredibly fresh, perfectly seasoned, and extremely flavorful. The ambiance is cozy yet modern. Welcoming and crisp. Absolutely will be back. We ordered bluefin tuna nigiri, a bento box, crispy rice, plum wine, yellowtail crudo and Berkshire tonkatsu. Everything exceeding our expectations. The owner even came over and checked on us a few times. We were so impressed with the service as well. Our waiter, Austin, was so lovely and patient. He answered our questions and although he said our order would take a while, we got our dinner relatively quick. I highly recommend trying Domo!",
+        "time": 1691201372
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "$$",
+    "popular_dishes": [
+      "Japanese",
+      "They",
+      "Everything"
+    ],
+    "descriptors": [
+      "romantic",
+      "quick_service",
+      "comfort_food",
+      "casual",
+      "family_friendly"
+    ],
+    "sentiment": "very positive",
+    "profile": "Domo Sushi Kitchen Bar is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.6/5. It is known for being romantic, quick service, comfort food, casual and family friendly. Popular dishes include Japanese, They and Everything."
+  },
+  {
+    "place_id": "ChIJd9HykNGOOIgRNwXBMNxK8lE",
+    "name": "Drunch Eatery + Bar",
+    "address": "995 N 4th St, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 39.98349479999999,
+    "lng": -82.9994641,
+    "rating": 4.2,
+    "user_ratings_total": 1233,
+    "price_level": 2,
+    "website": "http://www.druncheatery.com/",
+    "phone": "(614) 420-2121",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "OUT N' ABOUT",
+        "rating": 3,
+        "text": "Food was good. Our waiter was nice and attentive. 18% gratuity is added to all bills. The area is small and tables are close together. Not an ideal place for large parties. The manager or owner seemed \"put off\" because we ordered a drink at the bar while we waited for the rest of our party to arrive, needless to say it didn't help cozy the atmosphere.",
+        "time": 1737918327
+      },
+      {
+        "author_name": "Gar Seigla",
+        "rating": 5,
+        "text": "First time eating here.  My daughter picked it for my birthday and we could not be more pleased about the location (parking available), atmosphere, service and food.  This is BY FAR the best hollandaise sauce I have ever had in my life.  Our server (Bree) was so sweet and offered suggestions for all of us.  My only critique is the mandatory 18% gratuity.  This was a special occasion but that alone would turn me away for just a place to eat.  I still give it 5 stars! Helluva good hollandaise!!!",
+        "time": 1737823056
+      },
+      {
+        "author_name": "Amanda Moore",
+        "rating": 5,
+        "text": "From Akron area and found this place a little over a year ago.  Every time we’ve been to Columbus we make it a point to stop out for brunch.\n\nWait times may be a little long on busy weekends, but once you’re sitting down, servers are 100% attentive, and the kitchen moves fast with GREAT quality food at a very fair price.\n\nWould LOVE if they ever expanded to Akron/Cleveland or Canton area",
+        "time": 1742259583
+      },
+      {
+        "author_name": "Pretty Anta",
+        "rating": 4,
+        "text": "Visit Details:\n•\tDate: A few days ago, during the Arnold Sports Festival weekend. Wait times extended, due to the event; understandable as most downtown venues were crowded so this was a re-try.\n•\tWait Time: No wait (Thursday morning around 11am.)\n•\tParking: Limited; advisable to visit on less busy days for better parking availability\n\nService:\n•\tWaitstaff: Friendly, attentive, and accommodating\n•\tCo-Owner Interaction: Visited our table multiple times, introducing new menu items\n\nFood & Beverages:\n•\tWings:\n•\tBestie’s Rating: 3/10 – Too spicy to enjoy\n•\tP’s Rating: 5/10 – Preferred crispier texture and exclusively flat pieces\n•\tFrench Toast:\n•\tBestie’s Rating: 8/10\n•\tP’s Rating: 7/10 – Found it basic; desired more sweetness\n•\tCrab Bennie with Breakfast Potatoes:\n•\tBestie’s Rating: 9/10 – Displeased with over-easy egg preparation (which was perfect for P)\n•\tP’s Rating: 9/10 – Potatoes were too soft\n•\tBeverages: Coffee and Shirley Temple\n\nPricing:\n•\tTotal Bill: $67\n•\tGratuity: 18% included, plus an additional $10 tip\n\nDespite minor critiques, Drunch Eatery + Bar is a commendable brunch spot. The engaging staff and diverse menu make it worth a visit. For a more relaxed experience, consider visiting during off-peak times.",
+        "time": 1741318401
+      },
+      {
+        "author_name": "Matt Barnette",
+        "rating": 5,
+        "text": "Stopped to eat before heading back north and was excited we picked this place.  Parking was a bit confusing but not terrible.  The place was busy but moving fast.  Table for 2 maybe waited 6 minutes.  Was greeted by the co owner who took us to our seats;  very friendly as well.  The food choices were too hard as they all sounded great.  Started with the drunch eggroll, which was fantastic. Ended up getting the challah back French toast and 2 different bennies.  My wife had the regular bennie, and I had the avocado. Everything about this place was great,  definitely a must stop.",
+        "time": 1742096475
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "$$",
+    "popular_dishes": [
+      "Rating",
+      "Bestie",
+      "This",
+      "Wait",
+      "Parking"
+    ],
+    "descriptors": [
+      "romantic",
+      "casual",
+      "quick_service"
+    ],
+    "sentiment": "positive",
+    "profile": "Drunch Eatery + Bar is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.2/5. It is known for being romantic, casual and quick service. Popular dishes include Rating, Bestie, This, Wait and Parking."
+  },
+  {
+    "place_id": "ChIJ693jiRqPOIgRSFEovtA8DyQ",
+    "name": "Boom Boom Tacos Tequila & Mezcal",
+    "address": "201 Chittenden Ave, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 39.9953466,
+    "lng": -83.0016323,
+    "rating": 4.8,
+    "user_ratings_total": 97,
+    "price_level": 2,
+    "website": "https://www.boomboomtacostequilamezcal.com/",
+    "phone": "(614) 670-7849",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "Tee Beans",
+        "rating": 3,
+        "text": "The staff was A1, every time we finished our chips and dip she would bring some more out as soon as she sees an empty basket also with the drinks very polite but the food however was plain I didn’t really taste any flavor in the American taco I don’t recommend getting that at all but the birria nachos were very good , they don’t give avocado on it usually but I requested it…. They also do Karaoke Night on Tuesdays at 7pm if you’re interested!!",
+        "time": 1738767812
+      },
+      {
+        "author_name": "SuzyQ",
+        "rating": 5,
+        "text": "My team is in Ohio to 0lay softball and stopped here for some mexican food. We were sat immediately and received friendly service fast. Food was 100 percent great. Hot and fresh unlike the chain Mexican restaurants. Highly recommend.",
+        "time": 1742600681
+      },
+      {
+        "author_name": "Brina D",
+        "rating": 4,
+        "text": "This establishment is such a cute spot to grab tacos and a drink after work, especially on taco Tuesday. 😎\n\nI came in around 6:30pm and there weren’t too many people seated, which is what I prefer. I walked into the establishment and was immediately greeted by one of the servers. She brought out a physical menu, but she also clarified that if I scanned the QR code on the table, I would have access to the forming which had all the items in the drinks.\n\nI noticed there was a sign posted about happy hour, which takes place from 4 PM to 7 PM, and then again from 10 PM to midnight. Please navigate to the images to see a picture of the lemon drop cocktail. The cocktail was OK, but I’ve definitely had better. However, for the price I was pretty satisfied.\n\nI decided to try the white queso dip, which was very good with an authentic flavor. The dip was also pretty spicy, so I am assuming there are some type of hot peppers or jalapeños in the recipe.\n\nThe Carne Asada taco was OK but I wish the steak had a little more flavor. The fried chicken taco with the side chipotle sauce was okay as well, but again both tacos  needed more flavor. My bill came up to around $25 which I felt was very reasonable.\n\nThe overall ambience was pretty chill, and there was nice music playing in the background. I am definitely returning to give this establishment another go around I would highly recommend coming and checking it out for yourself, especially on a Tuesday evening!",
+        "time": 1725457633
+      },
+      {
+        "author_name": "Destiny zebrah",
+        "rating": 5,
+        "text": "Such a cute hole in the wall restaurant! Amazing food incredible staff our waiter sang beautifully as he served food throughout the restaurant. I got the quesabrilla and the happy hour hurricane ( the drink was super sweet they were kind and gave me orange juice so I could handle the rest ) we will definitely be back for more food and great music .",
+        "time": 1719462516
+      },
+      {
+        "author_name": "Keely McKinley",
+        "rating": 4,
+        "text": "This place had amazing gigantic margaritas and a really wonderful menu with so many options. The corn ribs were phenomenal and I loved my shrimp taco! I hope they add a consume for the birria tacos!",
+        "time": 1737935482
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "$$",
+    "popular_dishes": [
+      "This",
+      "Tuesday"
+    ],
+    "descriptors": [
+      "casual",
+      "quick_service",
+      "authentic"
+    ],
+    "sentiment": "positive",
+    "profile": "Boom Boom Tacos Tequila & Mezcal is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.8/5. It is known for being casual, quick service and authentic. Popular dishes include This and Tuesday."
+  },
+  {
+    "place_id": "ChIJiSApCwCPOIgRXfYfpyOYpbY",
+    "name": "Dave's Hot Chicken",
+    "address": "1828 N High St, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 39.9996029,
+    "lng": -83.0078067,
+    "rating": 4.7,
+    "user_ratings_total": 460,
+    "price_level": 2,
+    "website": "https://restaurants.daveshotchicken.com/oh/columbus/spicy-chicken-sandwich-on-high-st/?utm_source=google&utm_medium=wiideman&utm_campaign=pageleap",
+    "phone": "(614) 999-9840",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "Nick Joyce-Houghton",
+        "rating": 4,
+        "text": "Really solid food. Took forever to move through the line on the day I was there but once I actually placed my order it came very quick. I will say that the spicy level was inconsistent; I ordered the reaper, which requires you to sign a goofy waiver, and the first sandwich I had was spicy but not unbearable.  The second one was very very spicy (which is what I wanted, but it didn't make sense that it was tame the first time).",
+        "time": 1731614777
+      },
+      {
+        "author_name": "P.J. Galloway",
+        "rating": 4,
+        "text": "I got the reaper and it was an absolute hottest thing I ever got. You literally have to sign a waiver to order the reaper... The chicken was good though it has an excellent crunch and extremely moist. I got the very hot and mild as well. The very hot was pretty toasty but enjoyable. Mild was good as well. Definitely worth a try, but don't get the reaper, I'm serious 🥵😭",
+        "time": 1737183276
+      },
+      {
+        "author_name": "bella o",
+        "rating": 5,
+        "text": "I visited this place with my boyfriend a week or two ago, and right away, we were welcomed by one of the nicest cashiers I've ever met. His name was Trey, and he was incredibly kind and genuine—it was clear he was happy to be there and to help us. We later found out it was his first day, but you never would’ve guessed it with how well he handled everything!\n\nThe food was delicious, the atmosphere was bright and clean, and the manager seemed very supportive of the staff. Even with all of that, the main reason I wanted to leave this review was because of the fantastic service. Trey made such a great impression that we even remembered his name afterward!\n\nWe came back the next day (he wasn’t working that time), but we still had a great experience. If you get the chance to be helped by Trey, I’m sure you’ll have just as positive of a visit as we did. Thanks for the great service!",
+        "time": 1739911613
+      },
+      {
+        "author_name": "Jessica Torres",
+        "rating": 5,
+        "text": "Place was clean and the cashier Ben was super helpful! Tasted great too. Overall great experience. I don’t even like coleslaw but it’s fire here",
+        "time": 1734993962
+      },
+      {
+        "author_name": "Andrew McKenna",
+        "rating": 5,
+        "text": "Dave’s hot chicken offers and amazing fried chicken experience, where the perfectly crispy exterior and juicy, tender meat inside create a balance of flavors that is hard to beat. Each level of heat is thoughtfully crafted, ensuring both spice lovers and those seeking a milder taste can find their ideal heat without compromising on flavor. The menu is simple yet packed with bold, satisfying options.\n\nEqually impressive is the service, especially from Trey, who stands out for his exceptional hospitality. His friendly, attentive demeanor makes customers feel valued and welcomed from the moment they walk in. Trey’s knowledge of the menu and his enthusiasm for the brand shine through, creating a genuinely enjoyable atmosphere. His personalized service adds a special touch that elevates the entire dining experience, making it clear that he takes pride in his work. Dave’s Hot Chicken, with its fantastic food and top-notch service, is a must-visit.",
+        "time": 1734575540
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "$$",
+    "popular_dishes": [
+      "Trey",
+      "Hot Chicken",
+      "Dave"
+    ],
+    "descriptors": [
+      "late_night",
+      "quick_service",
+      "authentic"
+    ],
+    "sentiment": "very positive",
+    "profile": "Dave's Hot Chicken is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.7/5. It is known for being late night, quick service and authentic. Popular dishes include Trey, Hot Chicken and Dave."
+  },
+  {
+    "place_id": "ChIJbS7jiNeOOIgR3FFM_ntMDGQ",
+    "name": "Forno Kitchen + Bar",
+    "address": "721 N High St, Columbus, OH 43215, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 39.9770353,
+    "lng": -83.00376059999999,
+    "rating": 4.5,
+    "user_ratings_total": 2259,
+    "price_level": 2,
+    "website": "https://fornoshortnorth.com/",
+    "phone": "(614) 469-0053",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "David",
+        "rating": 5,
+        "text": "We had such a great experience for brunch. Our server was outstanding, very engaging, and personable. The food was fantastic! The breakfast pizza was exactly what I wanted out of a pizza for breakfast. The chicken and waffles are the perfect level of savory and sweet. Lastly, the starter of crispy rice was phenomenal: they are not stingy with thw tuna. And if it's your birthday don't forget to let them know. Not our first time here and definitely not our last.",
+        "time": 1742817202
+      },
+      {
+        "author_name": "Sabrina Zucaro",
+        "rating": 4,
+        "text": "Casual dining spot to go to if you’re visiting from out of town. Super cozy and chill atmosphere. The service and drinks were top notch. Food is average, and some dishes were lacking flavor, but overall it was still good. Also the portions could be a bit bigger (mainly the salads and proteins). Shout out to Tim for making our night perfect!",
+        "time": 1740674941
+      },
+      {
+        "author_name": "Noella T",
+        "rating": 5,
+        "text": "Upon visiting Columbus, we stopped into Forno for brunch and I can say that it was a good move. The food was good and the atmosphere was nice. It was very crowded but the service kept up.",
+        "time": 1742840073
+      },
+      {
+        "author_name": "Carrie Camara",
+        "rating": 5,
+        "text": "I’m from Boston & I’m here visiting my friend in Columbus & this place was the BEST! Highly recommend happy hour as the prices are great & the service is even better. We had Eden as our waitress and she was a QUEEN! The absolute best service ever!!!! 10/10 would recommend to a friend :))",
+        "time": 1730329108
+      },
+      {
+        "author_name": "Gautam Kini",
+        "rating": 1,
+        "text": "Beware!! They charge extra when you use Credit card!!\n\nVisited Forno today to celebrate my wife’s 50th birthday. We came here after a period of more than a year. Before that we visited Forno many times and had pleasant experiences. However this time the experience was very very bad . We ordered Arancini’s and Roasted Garlic Shrimp. While Roasted Garlic Shrimp was good the Arancini was not. The sauce was very tart.  Having spoiled the taste we decided to move on but the server was nowhere to be seen. We tried to get the attention of reception but the ladies there were busy talking among themselves for more than 15 mins. Finally we as well as other table had to request another server to get our server. When the server got the check we saw they had added a line item called Transaction cost. When I asked them what this was they said it’s a cost for using credit card when I protested the server said they always had it and everyone in Short north charges it . I told her that’s not true . This is first time I saw someone in. Columbus directly pass on the credit charges to customer. It’s said that a restaurant where I used to take my family friend and visitors has reached this level . Will definitely think twice before recommending this place in future.\n\nI have attached photos of two associates who kept talking and did not see our or the other table customers signaling for attention.\n\nI have also attached the bill from the adjoining restaurant to see if they directly charge the credit card fees and you will notice they don’t. I was so enraged I forgot to pick up the Forno bill else I would have posted its pic too",
+        "time": 1732073647
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "$$",
+    "popular_dishes": [
+      "Columbus",
+      "Forno",
+      "Arancini",
+      "When"
+    ],
+    "descriptors": [
+      "romantic",
+      "quick_service",
+      "casual",
+      "family_friendly",
+      "authentic",
+      "takeout"
+    ],
+    "sentiment": "positive",
+    "profile": "Forno Kitchen + Bar is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.5/5. It is known for being romantic, quick service, casual, family friendly, authentic and takeout. Popular dishes include Columbus, Forno, Arancini and When."
+  },
+  {
+    "place_id": "ChIJOVuSw3SPOIgRAUZkpgIiVJc",
+    "name": "Alqueria",
+    "address": "247 King Ave, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 39.99028299999999,
+    "lng": -83.0130506,
+    "rating": 4.7,
+    "user_ratings_total": 382,
+    "price_level": 2,
+    "website": "http://alqueriacolumbus.com/",
+    "phone": "(614) 824-5579",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "Navapat K",
+        "rating": 4,
+        "text": "Great experience! We went there for the restaurant week and liked everything on the menu. The artichoke was our favorite, hope they gonna put it on permanent menu! We order extra sweet potato fries, they mentioned that it fried twice, but when we ate it's not crispy, but still tastes good. For the main course, pork loin was still too chewy for me.\nBut overall, I love it. Will go back again. :)",
+        "time": 1738014001
+      },
+      {
+        "author_name": "Madeline Muñoz (Maddie)",
+        "rating": 5,
+        "text": "10/10 food - from the ingredients to the flavors, everything about the food was truly outstanding. Perfectly sized portions too! If you are an eater you’ll like having a starter and an entree! The drinks were also interesting and delicious! Friendly staff as well. Definitely want to come back and try more of the menu.",
+        "time": 1733460579
+      },
+      {
+        "author_name": "Patricia Rawls",
+        "rating": 5,
+        "text": "This was a date night with my husband and we enjoyed the service and atmosphere for the occasion.  Food had a great presentation and taste was even better.  We had the homemade hummus and blacked salmon that had great texture and well seasoned for taste.  Blaine had a welcoming personality and not overbearing.   We are looking forward to eating here again soon.  Thank you for having them on offline as they are 10 mins from our jobs and never knew they were here.",
+        "time": 1728692579
+      },
+      {
+        "author_name": "Sean Campbell",
+        "rating": 5,
+        "text": "This intimate atmosphere in the university district is the great place for a date night or special occasion.  The drinks were good, the build your charcuterie appetizer was really good and so were the duck confit and lamb shank.  Elevated dining for sure, and the price reflects the high quality but 100% worth it.",
+        "time": 1732233613
+      },
+      {
+        "author_name": "Braiden Slagle",
+        "rating": 5,
+        "text": "Visited for the first time on a perfect fall night so everyone was choosing to sit outside. Comfortable patio seating, kind and efficient staff, and massive portions of hearty “home cooked meals.” The fried chicken and braised short ribs were amazing.",
+        "time": 1728139127
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "$$",
+    "popular_dishes": [
+      "This"
+    ],
+    "descriptors": [
+      "romantic",
+      "late_night",
+      "quick_service",
+      "comfort_food",
+      "authentic"
+    ],
+    "sentiment": "very positive",
+    "profile": "Alqueria is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.7/5. It is known for being romantic, late night, quick service, comfort food and authentic. A popular dish is This."
+  },
+  {
+    "place_id": "ChIJfYztZm-JOIgR9nVU-hZMq3Q",
+    "name": "TaKorea",
+    "address": "1556 N High St (Game Arena, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 39.99396249999999,
+    "lng": -83.0061091,
+    "rating": 4.5,
+    "user_ratings_total": 113,
+    "price_level": 2,
+    "website": "https://www.takoreacbus.com/",
+    "phone": "(614) 364-4747",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "Aloha Vicki",
+        "rating": 5,
+        "text": "First time ordering from Takorea. Delicious fusion of korean and mexican food! Hearty portions, and we absolutely loved what we ordered. The Barita nachos and the fried chicken casadilla were delicious! 😋 Highly recommend and will definitely order from them again!",
+        "time": 1729904710
+      },
+      {
+        "author_name": "Neil Rischl",
+        "rating": 5,
+        "text": "The chef and bartender were absolutely amazing! I took my sister here for her birthday and we had a great time. We ordered 2 KFC tacos with one pineapple taco. We also ordered the spicy Korean wings with the birria nachos. All the food we ordered was incredible! The mixed drinks tasted pretty weak but the mango golden ale was delicious. Our service was very fast and friendly. The restaurant is located inside of a video gaming arena so the atmosphere is definitely geared towards gamers. If it is not your vibe you can always sit right outside. The courtyard is pretty nice. Keep doing a great job team. I can't wait till you open your own stand alone restaurant.",
+        "time": 1663792502
+      },
+      {
+        "author_name": "Ocalla1811",
+        "rating": 5,
+        "text": "We came to town for a concert and found this place on Google. We decided it sounded interesting, so we walked to the location. We tried 3 different entrees, and we were wowed! My son said it was the best burrito he's ever had. That's saying something because he's super picky! The woman who waited on us so extremely friendly, fast, and personable. Made us feel at ease since we weren't locals. When we're back on Columbus, we will definitely be coming back!",
+        "time": 1727571688
+      },
+      {
+        "author_name": "chris plunkett",
+        "rating": 5,
+        "text": "We had such a fun time here! A bit hard to find but we asked someone and they told us we had to walk into the Gaming place to find it! Super fun atmosphere drinks and food were great! Margaritta was our server/bartender and she was amazinggg. Her personality made us feel right at home and her drinks were top tier!",
+        "time": 1739750888
+      },
+      {
+        "author_name": "Brett zumFelde",
+        "rating": 5,
+        "text": "A really fun place, that happens to have really great fusion food.  The chicken is always delicious and I always order it, but the tacos really were just as excellent.  Hidden away next to Gateway film center, it is worth checking out. Highly recommended.",
+        "time": 1683670264
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "$$",
+    "popular_dishes": [
+      "Highly"
+    ],
+    "descriptors": [
+      "comfort_food",
+      "quick_service",
+      "authentic"
+    ],
+    "sentiment": "very positive",
+    "profile": "TaKorea is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.5/5. It is known for being comfort food, quick service and authentic. A popular dish is Highly."
+  },
+  {
+    "place_id": "ChIJZXyD9WiPOIgReBTT8HhdfPo",
+    "name": "Roots Natural Kitchen",
+    "address": "10 E 15th Ave, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 40.0003445,
+    "lng": -83.0076831,
+    "rating": 4.3,
+    "user_ratings_total": 162,
+    "price_level": 1,
+    "website": "https://www.rootsnaturalkitchen.com/",
+    "phone": "(740) 573-7050",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "Vincent Lam",
+        "rating": 4,
+        "text": "The place is clean and decorated lovely. The service is always great giving me some samples, but I feel like that I am eating a bowl of plain and healthy workout food. Also, it is weird to mix rice with a lot of salad leaves. Anyway, their dishes taste pretty fresh and healthy, especially sweet potatoes. It must be a good place for ppl who work out.",
+        "time": 1742702524
+      },
+      {
+        "author_name": "Robert Moore",
+        "rating": 5,
+        "text": "This place is my jam. When I'm being good to myself. All this stuff is high octane for the brain and body. Not just the greatly curated menu, no, I also mean the atmosphere and staff. As shop on a square, Roots Natural Kitchen, is a fairly new option thanks to a North High St. upgrade that affectionately applauds generations of Buskeyes and beautifully helps the current students thrive on an invigorating campus. I ordered and devoured a custom BBQ Tofu bowl. It was banging! The service was amazing and that always makes my day. I mean, you didn't have to be nice to me and serve me delicious food. You certain could have mailed it in and served me a healthy meal and that's that. But no, you hooked it up. That I truly appreciate! THANK YOU ROOTS NATURAL KITCHEN!!!!",
+        "time": 1721355458
+      },
+      {
+        "author_name": "Olivia Molina",
+        "rating": 5,
+        "text": "This is a great restaurant! The food is very healthy and delicious. The building is difficult accessibility wise and may require extra help for individuals using mobility aides. The indoors is very clean, and sensory friendly with dimmed lighting!",
+        "time": 1742265159
+      },
+      {
+        "author_name": "Sabrina Lian",
+        "rating": 4,
+        "text": "Service was subpar, actually quite rude. But regardless food was slap. Felt good eating healthy and still had enough for leftovers",
+        "time": 1732034582
+      },
+      {
+        "author_name": "Mackenzie Balle",
+        "rating": 4,
+        "text": "A good, healthy, quick option. Only 4 stars because it’s nothing out of this world, but I’m so glad I went and the flavors were good. I’ll definitely be back when I’m running low on time and want a quick, healthy bite to eat. Their bowl sizes are good, you get what you pay for. The staff is friendly and helpful. The space is nothing special, just table and chairs for a quick sit down. I was excited by the idea of Roots, thinking the inside would be all cutesy, but it was more of a fast-food/Chipotle style feel.",
+        "time": 1696530760
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "$",
+    "popular_dishes": [
+      "This"
+    ],
+    "descriptors": [
+      "healthy",
+      "quick_service"
+    ],
+    "sentiment": "positive",
+    "profile": "Roots Natural Kitchen is a Restaurant restaurant in columbus with a $ price range. It has a rating of 4.3/5. It is known for being healthy and quick service. A popular dish is This."
+  },
+  {
+    "place_id": "ChIJNZ2Cp_SPOIgRc-UNblS_w_o",
+    "name": "Yoshi (OSU Campus)",
+    "address": "1502 N High St, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 39.993003,
+    "lng": -83.00647909999999,
+    "rating": 4.5,
+    "user_ratings_total": 240,
+    "price_level": 2,
+    "website": "https://www.yoshiyum.com/",
+    "phone": "(614) 852-3939",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "Peter Thawnghmung",
+        "rating": 5,
+        "text": "Great atmosphere. Had Hawaain Roll and Spicy Tuna rolls. They were both excellent not to mention they were reasonably priced. Their crab Rangoon was delicious l! Highly recommended!",
+        "time": 1737662621
+      },
+      {
+        "author_name": "Brian Rosen",
+        "rating": 5,
+        "text": "Food was very tasty. Crab Rangoons had the best filling I’ve had on campus. I’ll definitely be back for more. The Pad Thai is lovely. Not dry, a great mix of veggies that you never get normally at a campus restaurant. Really nice service and was very fast.",
+        "time": 1736020507
+      },
+      {
+        "author_name": "Chance Weaver",
+        "rating": 5,
+        "text": "The place is small but that's what's good about it, the music the atmosphere the decor all amazing definitely would come again",
+        "time": 1740334272
+      },
+      {
+        "author_name": "Jess M",
+        "rating": 5,
+        "text": "The food is so yummy and the woman at the register is always so friendly and provides prompt service!",
+        "time": 1740507378
+      },
+      {
+        "author_name": "Jacqueline Cunningham",
+        "rating": 5,
+        "text": "Super great experience! We got dumplings and a hibachi bowl that was delicious, and I'm sure I'll be back for boba. Good atmosphere, indie music and overall chill vibe. Will come again!",
+        "time": 1731799513
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "$$",
+    "popular_dishes": [],
+    "descriptors": [
+      "comfort_food",
+      "casual",
+      "quick_service",
+      "authentic"
+    ],
+    "sentiment": "very positive",
+    "profile": "Yoshi (OSU Campus) is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.5/5. It is known for being comfort food, casual, quick service and authentic."
+  },
+  {
+    "place_id": "ChIJO5clh9eOOIgR4XB1bfcD6sg",
+    "name": "Press Grill",
+    "address": "741 N High St, Columbus, OH 43215, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 39.977535,
+    "lng": -83.00384609999999,
+    "rating": 4.5,
+    "user_ratings_total": 1133,
+    "price_level": 1,
+    "website": "http://www.presscolumbus.com/",
+    "phone": "(614) 298-1014",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "Julia Hurley",
+        "rating": 5,
+        "text": "If you don’t order the pizza and smash burger, double with cheese and bacon, you are not getting the experience you deserve here. They also serve Garage beer, which is a local brew. The small pub feel is cozy and warm and the service was impeccable. We actually went twice in our three day stay just b/c it was so good.  Oh yeah, I almost forgot. The service suggested a potato appetizer that was stupid good.  We didn’t take a photo. It was just quickly eaten.",
+        "time": 1735136870
+      },
+      {
+        "author_name": "Angela",
+        "rating": 5,
+        "text": "1st time in Columbus and googled places near the convention center… GREAT food, GREAT prices, Great staff, Great atmosphere, what more do you need to know! We had the onion rings ( perfect light breading), calamari, white pizza, burger,brisket sandwich, Mac n cheese , pesto chicken ,burger melt and some drinks! We all loved it!",
+        "time": 1742170415
+      },
+      {
+        "author_name": "Daniel Schiel II",
+        "rating": 4,
+        "text": "Honestly, great establishment overall. Food is great, I got the meat loaf sandwich, and it was Fantastic. Servers are quick and dependable. Definitely a little loud for my liking, but that is to be expected at this style of establishment. Definitely recommended this place if coming through town.",
+        "time": 1742528299
+      },
+      {
+        "author_name": "Stephen Phillips",
+        "rating": 5,
+        "text": "I brought an unannounced party of 13 here (on a Monday) after our pre-arranged dinner plans fell through. They gave us delicious food and great service. My only regret is that my party was mostly teenagers, and I wasn't sure if the server was properly tipped!\n\nThese people do great work and deliver great food. I can't comment on the drinks since I was chaperoning teenagers, but the menu looked like the bar had tasty stuff! Give them a try; from cheeseburger to fried octopus, it's all delicious!",
+        "time": 1742099674
+      },
+      {
+        "author_name": "Sevastian Javier",
+        "rating": 5,
+        "text": "A very cozy spot. Good food for the price. Their meatloaf was amazing.",
+        "time": 1740352170
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "$",
+    "popular_dishes": [
+      "They",
+      "Definitely"
+    ],
+    "descriptors": [
+      "romantic",
+      "casual",
+      "quick_service"
+    ],
+    "sentiment": "very positive",
+    "profile": "Press Grill is a Restaurant restaurant in columbus with a $ price range. It has a rating of 4.5/5. It is known for being romantic, casual and quick service. Popular dishes include They and Definitely."
+  },
+  {
+    "place_id": "ChIJATrQ7QePOIgRZWAI5WjB-oY",
+    "name": "Fireproof Restaurant",
+    "address": "1026 N High St, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 39.9831513,
+    "lng": -83.0041437,
+    "rating": 4.3,
+    "user_ratings_total": 652,
+    "price_level": 2,
+    "website": "https://fireproofcolumbus.com/",
+    "phone": "(614) 525-0072",
+    "types": [
+      "night_club",
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "Vera Pham",
+        "rating": 5,
+        "text": "My friend had her birthday dinner here and we had a blast! Our server, Dan, was awesome and super personable. We ordered the Cajun chicken pasta, crab cake, lobster tacos, empanadas, salmon bites, and fried rice. The drinks were great as well. Everything was amazing! At the end of dinner, Dan brought out a surprise slice of cake for my friend, which was also delicious. I loved the vibe and will definitely be back!",
+        "time": 1742730053
+      },
+      {
+        "author_name": "Mackenzie Balle",
+        "rating": 4,
+        "text": "Great food! We loved this place and would definitely go back for the food. We went during happy hour when 15 of the appetizers were half off. There were some weird vibes from someone working the bar who told us that all of the appetizers were half off, which isn’t true since we’d seen the lineup on the website before coming in, then when the bill came he charged full price for one of the ones we’d ordered that was half off…we just felt like he was trying to pull a fast one, but good experience other than that!\n\nWe ordered the wagyu sliders (so good!), butter beef Vietnamese summer rolls (the beef was so good and the flavor was amazing), and bang bang shrimp (good with a little spicy kick, but wish they were a tiny bit less fried).",
+        "time": 1741110693
+      },
+      {
+        "author_name": "Beth Knieriemen",
+        "rating": 5,
+        "text": "Dan, our server was absolutely wonderful!! He was informative, quick, engaging, and just so fun. The food was incredible, Dan's recommendations were spot on, the pork belly was the best!!! We also had bang bang shrimp, wagyu empanadas, and dumplings, also the cheesecake for dessert... Everything was so good!",
+        "time": 1742417518
+      },
+      {
+        "author_name": "Jessica Campbell",
+        "rating": 5,
+        "text": "Dan was an absolutely amazing server. He was able to give us great insight on the menu and made amazing suggestions. We ordered everything he suggested and we were not disappointed. Our experience was great and we cannot wait to go back.",
+        "time": 1734595754
+      },
+      {
+        "author_name": "Laurie Fair",
+        "rating": 5,
+        "text": "I loved this restaurant. The drinks were amazing and definitely had a kick. The food was creative and so tasty, especially the wagyu sliders. Service was friendly and consistent. Happy hour had lots of incredible options. I highly recommend!",
+        "time": 1742428275
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant",
+      "Night Club",
+      "Bar/Pub"
+    ],
+    "price_display": "$$",
+    "popular_dishes": [
+      "Everything"
+    ],
+    "descriptors": [
+      "quick_service",
+      "takeout",
+      "authentic"
+    ],
+    "sentiment": "very positive",
+    "profile": "Fireproof Restaurant is a Restaurant, Night Club, Bar/Pub restaurant in columbus with a $$ price range. It has a rating of 4.3/5. It is known for being quick service, takeout and authentic. A popular dish is Everything."
+  },
+  {
+    "place_id": "ChIJe8m9iSWMOIgRM6KsMjI_Hs4",
+    "name": "MODA Restaurant and Bar - Columbus",
+    "address": "3100 Olentangy River Rd, Columbus, OH 43202, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 40.0241544,
+    "lng": -83.0253671,
+    "rating": 4.5,
+    "user_ratings_total": 86,
+    "price_level": 2,
+    "website": "https://modacolumbus.com/",
+    "phone": "(614) 447-9777",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "Kessashun Arthur",
+        "rating": 5,
+        "text": "I came here for dinner on a Sunday evening and it felt pretty laid-back and informal. It has a classy ambiance, but it's in the hotel lobby and not really separated from guests coming and going. We sat ourselves and most people there were just grabbing drinks from the bar. There was a wide variety of attire, so you definitely don't need to come dressed formally. I wouldn't call it a nice date night vibe, but mostly focused on elevated cuisine. The menu is okay, not super extensive or exciting, but the food was excellent. For starters, the pretzel bites had a unique texture to them -- reminded me a tiny bit of a yeast donut but a little thicker. The salmon entree was phenomenal -- delicious glaze, great crust on the salmon, silky smooth and rich puree, everything on the plate meshed well together.. 9/10 dish. I tasted a bite of the mushroom risotto and it was quite good, too. Service was good. I'd come back for another great meal.",
+        "time": 1719277993
+      },
+      {
+        "author_name": "quinn dubois",
+        "rating": 5,
+        "text": "We came in after the Chelsea game and it was extremely busy with everyone arriving at once! Things were moving slow as would be expected, but it seemed like the entire staff from bartenders, to servers, to management were hustling to the best of their ability. When food and cocktails  reached us it was well prepared and a manager named Patrick stopped by to talk to us for a few minutes to explain and apologize. He seemed sincere and kind even though I saw a few guests being rude to him when he tried to explain the same things to them. As someone who has worked in service I really think a host would have been helpful as we all just sat at once and flooded our orders into the bar and kitchen?",
+        "time": 1722915703
+      },
+      {
+        "author_name": "Fabiana Kirtley",
+        "rating": 4,
+        "text": "Moda is located inside the Residence Inn hotel, as you walk in to the left, and they extend for the majority of the lobby. We went for happy hour ( sun-tue, 5-7 pm) for the great prices on both drinks and appetizers. We started off with pretzel bites. They came with a type of mustard and cheese sauce. They weren’t fresh, but still really good. Even though they don’t have it listed, they do have a veggie patty to substitute to all the burgers if you just ask. I ordered a Moda Burger, both it and the fries it came with were delicious! After happy hour ended we ordered one more drink and I went with an holiday spritz. It was perfect! Our server was great and extremely attentive.",
+        "time": 1677064423
+      },
+      {
+        "author_name": "Destiny zebrah",
+        "rating": 4,
+        "text": "We came here to celebrate our date night together and truly loved the corn ribs and drinks . Great service it took a little long to greet us but they were short staffed that day\n\nOur waiter was on top of making sure we had what we needed and we will be back to try out more menu options\nThe pesto bread was a bit over powering but loved the color it gave to the dish",
+        "time": 1709520958
+      },
+      {
+        "author_name": "Norm Zurawski",
+        "rating": 5,
+        "text": "Place is in a hotel and very wide open, so hard to give it a good atmosphere score.\n\nOverall 5, food 5, service 5.\n\nGot the salmon. It was flat-put excellent. Nothing more to say. Will absolutely be back.\n\nServer was a junior at OSU and talked through her experience in going to SDSU then coming back to OSU. I believe her name was Taylor. This was the conversation my daughter needed to hear to make up her mind. She has since accepted the OSU offer and is totally stoked to go in the fall. Pass on my regards to Taylor as she was super friendly & helpful.\n\nWill go back!",
+        "time": 1713017186
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "$$",
+    "popular_dishes": [
+      "They",
+      "Moda Burger",
+      "Will",
+      "Taylor"
+    ],
+    "descriptors": [
+      "romantic",
+      "late_night",
+      "casual",
+      "authentic",
+      "fancy",
+      "takeout"
+    ],
+    "sentiment": "very positive",
+    "profile": "MODA Restaurant and Bar - Columbus is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.5/5. It is known for being romantic, late night, casual, authentic, fancy and takeout. Popular dishes include They, Moda Burger, Will and Taylor."
+  },
+  {
+    "place_id": "ChIJKwAD-riOOIgRca8ZNY_mJkk",
+    "name": "Ethyl & Tank",
+    "address": "19 E 13th Ave, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 39.9976666,
+    "lng": -83.00695910000002,
+    "rating": 4.2,
+    "user_ratings_total": 696,
+    "price_level": 1,
+    "website": "http://www.ethylandtank.com/",
+    "phone": "(614) 817-6997",
+    "types": [
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "Josh Mayes",
+        "rating": 5,
+        "text": "Food was high quality and delicious! Atmosphere was definitely more college bar than restaurant. Service was very friendly and attentive, but could have been improved with some simple accommodations. E.g., my wife wasn't able to get a cup of coffee, because they didn't want to make a fresh pot in the afternoon, and I was denied the addition of a fried egg on my burger because \"the breakfast stuff had already been put away.\" I found this odd, that a simple egg could not be found in the kitchen. In the end, I must say, I really didn't need the egg, as the burger was fabulous as provided! I would definitely go back for the food, and shoot for a bit earlier next time to try the brunch menu.",
+        "time": 1736129405
+      },
+      {
+        "author_name": "Angela Fain",
+        "rating": 5,
+        "text": "My husband I are touring the Big 10 stadiums and stopped in Columbus for the Hoosier Buckeyes game. We visited Ethyl and Tank for brunch before the game and it was awesome! It was right across the street from our air bnb and a quick walk to the stadium. The drink specials (at 8am) and the food were great. The Brie and waffle fries was a treat and my husbands breakfast burrito looked good. After the game we went back for drinks and loved the rowdy atmosphere and the DJ. Thanks for the great service and hospitality despite our IU attire.",
+        "time": 1732463429
+      },
+      {
+        "author_name": "Craig Wheeler",
+        "rating": 5,
+        "text": "A great and spontaneous dinner at Ethyl & Tank this evening. Excellent grub, exceptionally nice staff, fun atmosphere, and BIG ASS draught beers for $5 during Happy Hour! 🍺...W⭕️⭕️T‼️",
+        "time": 1727934167
+      },
+      {
+        "author_name": "Tod Bowen",
+        "rating": 5,
+        "text": "Stopped in for a quick drink and enjoyed the visit. Fun vibe, decent beer selection, friendly bartenders.",
+        "time": 1729334168
+      },
+      {
+        "author_name": "Ashley R",
+        "rating": 5,
+        "text": "The fruity Pebble pancakes are super delicious!\nThe presentation was amazing!!!\nGreat bar. Good seating. Good people. I definitely be back!!",
+        "time": 1739186479
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant",
+      "Bar/Pub"
+    ],
+    "price_display": "$",
+    "popular_dishes": [
+      "Ethyl",
+      "Tank"
+    ],
+    "descriptors": [
+      "quick_service",
+      "authentic"
+    ],
+    "sentiment": "very positive",
+    "profile": "Ethyl & Tank is a Restaurant, Bar/Pub restaurant in columbus with a $ price range. It has a rating of 4.2/5. It is known for being quick service and authentic. Popular dishes include Ethyl and Tank."
+  },
+  {
+    "place_id": "ChIJkzsp0LWPOIgRIHlXPdOAXSs",
+    "name": "OX-B's",
+    "address": "1177 N High St, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 39.9864007,
+    "lng": -83.0056293,
+    "rating": 4.6,
+    "user_ratings_total": 104,
+    "price_level": 1,
+    "website": "http://oxbs.com/",
+    "phone": "(614) 705-6000",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "Kenny",
+        "rating": 5,
+        "text": "BEST TOFU WRAP IN THE CITY! I’m here constantly for lunch and my coworkers are constantly jealous and always ask if I’m doing an OX-Bs run. The food is ALWAYS fresh and the service is always on par. Can’t thank the staff enough for making everything experience better than the last!",
+        "time": 1738087235
+      },
+      {
+        "author_name": "RJ Creamer",
+        "rating": 5,
+        "text": "I got off doordash, came over to google searched for my location just to leave it a 5 star review. The food never disappoints, they never forget my drink. Buffalo chicken wrap, smothered corn bread, waffle fries fantastic. Very affordable, quality food, fast service. A blessing in the Columbus area.",
+        "time": 1740532570
+      },
+      {
+        "author_name": "Samantha Morales",
+        "rating": 5,
+        "text": "Went for the first time and oh my goodness.. the   original slop sandwich is where it's at. Wish they had meal options but the food was still very good. The drink area needs a really good cleaning and wish I knew it was more like serve yourself kind of deal.. there's no ketchup and not to sure if you're suppose to ask for it , but the food was awesome.. wish more cheese came on the cheese waffle fries.",
+        "time": 1711916101
+      },
+      {
+        "author_name": "Justin Sweet",
+        "rating": 2,
+        "text": "The food is great, but tonight is the last time I'll order food from this location.\n\nI ordered a 24 piece boneless wings, which comes with sauces. I ordered onion rings, which also comes with sauce. I ordered fries and Mac and cheese. NO sauce was delivered with our order. I even added like 4 sauces to the order and I got no sauce. I'm done with this location because it's not the first or even the second time this has happened.\n\nSo you should definitely go here. But do yourself a favor and pick your food up and make sure the sauce is in there.",
+        "time": 1730587504
+      },
+      {
+        "author_name": "Liz Love",
+        "rating": 5,
+        "text": "Yum yum yum!! The chicken and waffles fries with white Mac is a whole filling meal. The tofu wings were fantastic. I loved that the jalapeño poppers had red peppers in them. It was a refreshing touch to them! The salad mix used for the grilled chicken was super fresh and crisp which I absolutely loved!",
+        "time": 1675015726
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "$",
+    "popular_dishes": [],
+    "descriptors": [
+      "quick_service",
+      "comfort_food",
+      "authentic",
+      "affordable",
+      "takeout"
+    ],
+    "sentiment": "positive",
+    "profile": "OX-B's is a Restaurant restaurant in columbus with a $ price range. It has a rating of 4.6/5. It is known for being quick service, comfort food, authentic, affordable and takeout."
+  }
+]

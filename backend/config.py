@@ -8,7 +8,7 @@ load_dotenv(dotenv_path=dotenv_path)
 print(f"API Key loaded: {os.getenv('GOOGLE_PLACES_API_KEY') is not None}")
 
 # API Keys
-GOOGLE_PLACES_API_KEY = os.getenv("AIzaSyA1iBohbnQY7GSmcJDJOjFP9SjNzbt1ukI")
+GOOGLE_PLACES_API_KEY = os.getenv("GOOGLE_PLACES_API_KEY")
 # Or if using Outscraper
 # OUTSCRAPER_API_KEY = os.getenv("OUTSCRAPER_API_KEY")
 
