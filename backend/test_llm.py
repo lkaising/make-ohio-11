@@ -12,7 +12,7 @@ from services.llm_service import LLMService
 
 def test_llm():
     """
-    Test the LLM service with a few example queries
+    Test the LLM service with a few example queries.
     """
     # Create an instance of the LLMService
     try:
@@ -24,9 +24,11 @@ def test_llm():
 
     # Define some test queries
     test_queries = [
+        "I'm looking for some cheap and yummy chinese food but not too spicy and also authentic",
+        "I need a yummy ramen place with a good atmosphere",
+        "Can you recommend a nice place for a family dinner?",
         "I'm looking for a place similar to McDonald's but not McDonald's, with cheap and yummy burgers",
         "I want a romantic Italian restaurant for a date night",
-        "Where can I find authentic Mexican food in Columbus?"
     ]
 
     # Test each query
@@ -49,6 +51,7 @@ def test_llm():
             print("Recommendations:")
             for j, restaurant in enumerate(results['recommendations']):
                 print(f"\n{j+1}. {restaurant['name']} - {restaurant['rating']} - {restaurant['price_level']}")
+                print(f"   Address: {restaurant['address']}")
                 print(f"   Match Reason: {restaurant['match_reasons']}")
                 print(f"   Details: {restaurant['details']}")
             

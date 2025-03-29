@@ -11,12 +11,12 @@ from config import DATA_DIR
 class LLMService:
     """
     Service to process user queries and match them with restaurant recommendations
-    using Google's Gemini Pro 2.5 LLM
+    using Google's Gemini Pro 2.5 LLM.
     """
     
     def __init__(self, api_key: Optional[str] = None):
         """
-        Initialize the LLM service with the Google Gemini API key
+        Initialize the LLM service with the Google Gemini API key.
         
         Args:
             api_key: Google Gemini API key (if None, will try to load from environment)
@@ -33,7 +33,7 @@ class LLMService:
         self.restaurants = self._load_restaurants()
     
     def _load_restaurants(self) -> List[Dict[str, Any]]:
-        """Load restaurant data from JSON file"""
+        """Load restaurant data from JSON file."""
         if not os.path.exists(self.restaurants_path):
             raise FileNotFoundError(f"Restaurant data not found at {self.restaurants_path}")
         
@@ -45,16 +45,16 @@ class LLMService:
                            city: Optional[str] = None,
                            price_level: Optional[List[int]] = None) -> Dict[str, Any]:
         """
-        Get restaurant recommendations based on user query
+        Get restaurant recommendations based on user query.
         
         Args:
-            user_query: Natural language query from the user
-            num_results: Number of restaurant recommendations to return
-            city: Optional city filter
-            price_level: Optional price level filter (list of integers 1-4)
+            user_query: Natural language query from the user.
+            num_results: Number of restaurant recommendations to return.
+            city: Optional city filter.
+            price_level: Optional price level filter (list of integers 1-4).
             
         Returns:
-            Dict containing recommendations and query analysis
+            Dict containing recommendations and query analysis.
         """
         # Filter restaurants by city and price level if provided
         filtered_restaurants = self.restaurants
@@ -77,14 +77,14 @@ class LLMService:
     def _prepare_context(self, restaurants: List[Dict[str, Any]], 
                         user_query: str) -> str:
         """
-        Prepare the context for the LLM prompt
+        Prepare the context for the LLM prompt.
         
         Args:
-            restaurants: List of restaurant data
-            user_query: Natural language query from the user
+            restaurants: List of restaurant data.
+            user_query: Natural language query from the user.
             
         Returns:
-            String context for the LLM prompt
+            String context for the LLM prompt.
         """
         # Limit the number of restaurants to avoid token limits (adjust as needed)
         max_restaurants = 100
@@ -96,35 +96,50 @@ class LLMService:
                 reverse=True
             )[:max_restaurants]
         
-        # Create a compact restaurant database for the context
         restaurant_profiles = []
         for idx, restaurant in enumerate(restaurants):
+            name = restaurant.get("name", "N/A")
+            address = restaurant.get("address", "N/A")
+            rating = restaurant.get("rating", "N/A")
+            # Prefer price_display if available, otherwise price_level
+            price = restaurant.get("price_display") or restaurant.get("price_level", "N/A")
             profile = restaurant.get("profile", "")
-            if profile:
-                restaurant_profiles.append(f"Restaurant {idx+1}: {profile}")
+            # Include up to the first two reviews for context
+            reviews_list = restaurant.get("reviews", [])
+            review_texts = " | ".join([review.get("text", "") for review in reviews_list[:2]])
+            
+            profile_str = (
+                f"Restaurant {idx+1}:\n"
+                f"Name: {name}\n"
+                f"Address: {address}\n"
+                f"Rating: {rating}/5\n"
+                f"Price Level: {price}\n"
+                f"Reviews: {review_texts}\n"
+                f"Profile: {profile}"
+            )
+            restaurant_profiles.append(profile_str)
         
-        context = "\n".join(restaurant_profiles)
-        
+        context = "\n\n".join(restaurant_profiles)
         return context
     
     def _generate_recommendations(self, context: str, 
                                 user_query: str, 
                                 num_results: int = 3) -> Dict[str, Any]:
         """
-        Generate restaurant recommendations using Google Gemini
+        Generate restaurant recommendations using Google Gemini.
         
         Args:
-            context: Restaurant data context
-            user_query: Natural language query from the user
-            num_results: Number of restaurant recommendations to return
+            context: Restaurant data context.
+            user_query: Natural language query from the user.
+            num_results: Number of restaurant recommendations to return.
             
         Returns:
-            Dict containing recommendations and query analysis
+            Dict containing recommendations and query analysis.
         """
         # Load the model
         model = genai.GenerativeModel('gemini-2.5-pro-exp-03-25')
         
-        # Construct the prompt
+        # Construct the prompt with updated expected output
         prompt = f"""
 You are a restaurant recommendation assistant for Ohio.
 Your task is to recommend restaurants based on the user's query.
@@ -138,10 +153,11 @@ RESTAURANT DATABASE:
 Based on the user's query, identify the top {num_results} most relevant restaurants.
 For each restaurant, provide:
 1. Restaurant name
-2. Rating (out of 5)
-3. Price level
-4. A brief explanation of why it matches the user's query
-5. A few key details about the restaurant (cuisine, popular dishes, etc.)
+2. Address
+3. Rating (out of 5)
+4. Price level
+5. A brief explanation of why it matches the user's query
+6. A few key details about the restaurant (cuisine, popular dishes, etc.)
 
 Also provide a brief analysis of what the user seems to be looking for.
 
@@ -151,6 +167,7 @@ Format your response as a JSON object with the following structure:
   "recommendations": [
     {{
       "name": "Restaurant Name",
+      "address": "Restaurant Address",
       "rating": "4.5/5",
       "price_level": "$",
       "match_reasons": "Why this restaurant matches the query",
@@ -173,14 +190,12 @@ Ensure your response is valid JSON with all values as strings.
         except json.JSONDecodeError:
             # If the response isn't proper JSON, try to extract it from the text
             try:
-                # Look for JSON between triple backticks
                 import re
                 json_match = re.search(r'```json\s*(.*?)\s*```', response.text, re.DOTALL)
                 if json_match:
                     json_str = json_match.group(1)
                     return json.loads(json_str)
                 
-                # Or try to extract the JSON part directly
                 json_match = re.search(r'({[\s\S]*})', response.text)
                 if json_match:
                     json_str = json_match.group(1)
@@ -188,7 +203,6 @@ Ensure your response is valid JSON with all values as strings.
             except (json.JSONDecodeError, AttributeError):
                 pass
             
-            # If all parsing fails, return a formatted error response
             return {
                 "query_analysis": "Unable to analyze query properly",
                 "recommendations": [],
@@ -197,13 +211,13 @@ Ensure your response is valid JSON with all values as strings.
     
     def get_restaurant_details(self, restaurant_id: str) -> Dict[str, Any]:
         """
-        Get detailed information about a specific restaurant
+        Get detailed information about a specific restaurant.
         
         Args:
-            restaurant_id: The place_id of the restaurant
+            restaurant_id: The place_id of the restaurant.
             
         Returns:
-            Full restaurant details
+            Full restaurant details.
         """
         for restaurant in self.restaurants:
             if restaurant.get("place_id") == restaurant_id:
