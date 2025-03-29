@@ -53,7 +53,7 @@ class GooglePlacesCollector:
         
         # Collect up to MAX_RESTAURANTS_PER_ZIP establishments or max 3 pages
         page_count = 0
-        max_pages = 10
+        max_pages = 20
         
         while page_count < max_pages and len(results) < MAX_RESTAURANTS_PER_ZIP:
             # If we have a page token from a previous request, use it
@@ -198,7 +198,7 @@ class GooglePlacesCollector:
             self._save_restaurants(all_restaurants)
             
             # Respect API rate limits
-            time.sleep(1)
+            time.sleep(2)
     
     def _save_restaurants(self, restaurants: List[Dict[str, Any]]) -> None:
         """
