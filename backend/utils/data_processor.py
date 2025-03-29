@@ -1,7 +1,7 @@
 import os
 import json
 import re
-from typing import List, Dict, Any, Set
+from typing import List, Dict, Any
 from collections import Counter
 import sys
 
@@ -9,77 +9,76 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config import DATA_DIR
 
+# Common food-related words to ignore when extracting dishes
+COMMON_FOOD_WORDS = {
+    "food", "meal", "lunch", "dinner", "breakfast", "appetizer", "entree", 
+    "dessert", "drink", "beverage", "dish", "plate", "order", "menu", "restaurant",
+    "delicious", "tasty", "yummy", "good", "great", "excellent", "amazing",
+    "terrible", "bad", "awful", "okay", "decent", "fine", "average", "mediocre"
+}
+
+# Keywords for restaurant characteristics
+DESCRIPTOR_PATTERNS = {
+    "affordable": ["affordable", "cheap", "inexpensive", "budget", "low price", "good price", "good value", "value for money"],
+    "expensive": ["expensive", "pricey", "high-end", "upscale", "fancy", "costly", "overpriced"],
+    "family_friendly": ["family", "kid", "child", "family-friendly", "family friendly", "family oriented"],
+    "quick_service": ["fast", "quick", "speedy", "rapid", "prompt", "efficient", "quick service"],
+    "casual": ["casual", "relaxed", "laid-back", "informal", "chill", "cozy"],
+    "fancy": ["fancy", "upscale", "elegant", "sophisticated", "classy", "high-end", "fine dining"],
+    "late_night": ["late night", "late-night", "late", "24 hour", "24-hour", "all night", "all-night"],
+    "romantic": ["romantic", "date", "intimate", "cozy", "quiet", "candle", "ambiance"],
+    "takeout": ["takeout", "take-out", "take out", "to-go", "to go", "delivery", "pickup", "pick-up", "carry-out"],
+    "healthy": ["healthy", "nutritious", "organic", "vegan", "vegetarian", "gluten-free", "gluten free", "plant-based"],
+    "comfort_food": ["comfort", "comfort food", "homemade", "home-made", "hearty", "filling", "classic"],
+    "authentic": ["authentic", "traditional", "genuine", "real", "original", "true", "legitimate"]
+}
+
+# Price level mapping
+PRICE_MAPPING = {
+    0: "Unknown",
+    1: "$",
+    2: "$$",
+    3: "$$$",
+    4: "$$$$"
+}
+
+# Enhanced cuisine type mapping (Google Place types to more specific cuisine categories)
+CUISINE_MAPPING = {
+    "bakery": "Bakery",
+    "bar": "Bar/Pub",
+    "cafe": "Café",
+    "meal_takeaway": "Takeout",
+    "meal_delivery": "Delivery",
+    "restaurant": "Restaurant",
+    "american_restaurant": "American",
+    "bbq": "BBQ",
+    "burger_restaurant": "Burgers",
+    "chinese_restaurant": "Chinese",
+    "fast_food_restaurant": "Fast Food",
+    "french_restaurant": "French",
+    "greek_restaurant": "Greek",
+    "indian_restaurant": "Indian",
+    "italian_restaurant": "Italian",
+    "japanese_restaurant": "Japanese",
+    "korean_restaurant": "Korean",
+    "mexican_restaurant": "Mexican",
+    "middle_eastern_restaurant": "Middle Eastern",
+    "pizza_restaurant": "Pizza",
+    "seafood_restaurant": "Seafood",
+    "steak_house": "Steakhouse",
+    "sushi_restaurant": "Sushi",
+    "thai_restaurant": "Thai",
+    "vegetarian_restaurant": "Vegetarian",
+    "vietnamese_restaurant": "Vietnamese"
+}
+
 class DataProcessor:
     """
     Utility class for processing and cleaning restaurant data
     """
     
     def __init__(self):
-        self.data_dir = DATA_DIR
-        self.restaurants_path = os.path.join(self.data_dir, "restaurants.json")
-        
-        # Common food-related words to ignore when extracting dishes
-        self.common_food_words = {
-            "food", "meal", "lunch", "dinner", "breakfast", "appetizer", "entree", 
-            "dessert", "drink", "beverage", "dish", "plate", "order", "menu", "restaurant",
-            "delicious", "tasty", "yummy", "good", "great", "excellent", "amazing",
-            "terrible", "bad", "awful", "okay", "decent", "fine", "average", "mediocre"
-        }
-        
-        # Keywords for restaurant characteristics
-        self.descriptor_patterns = {
-            "affordable": ["affordable", "cheap", "inexpensive", "budget", "low price", "good price", "good value", "value for money"],
-            "expensive": ["expensive", "pricey", "high-end", "upscale", "fancy", "costly", "overpriced"],
-            "family_friendly": ["family", "kid", "child", "family-friendly", "family friendly", "family oriented"],
-            "quick_service": ["fast", "quick", "speedy", "rapid", "prompt", "efficient", "quick service"],
-            "casual": ["casual", "relaxed", "laid-back", "informal", "chill", "cozy"],
-            "fancy": ["fancy", "upscale", "elegant", "sophisticated", "classy", "high-end", "fine dining"],
-            "late_night": ["late night", "late-night", "late", "24 hour", "24-hour", "all night", "all-night"],
-            "romantic": ["romantic", "date", "intimate", "cozy", "quiet", "candle", "ambiance"],
-            "takeout": ["takeout", "take-out", "take out", "to-go", "to go", "delivery", "pickup", "pick-up", "carry-out"],
-            "healthy": ["healthy", "nutritious", "organic", "vegan", "vegetarian", "gluten-free", "gluten free", "plant-based"],
-            "comfort_food": ["comfort", "comfort food", "homemade", "home-made", "hearty", "filling", "classic"],
-            "authentic": ["authentic", "traditional", "genuine", "real", "original", "true", "legitimate"]
-        }
-        
-        # Price level mapping
-        self.price_mapping = {
-            0: "Unknown",
-            1: "$",
-            2: "$$",
-            3: "$$$",
-            4: "$$$$"
-        }
-        
-        # Enhanced cuisine type mapping (Google Place types to more specific cuisine categories)
-        self.cuisine_mapping = {
-            "bakery": "Bakery",
-            "bar": "Bar/Pub",
-            "cafe": "Café",
-            "meal_takeaway": "Takeout",
-            "meal_delivery": "Delivery",
-            "restaurant": "Restaurant",
-            "american_restaurant": "American",
-            "bbq": "BBQ",
-            "burger_restaurant": "Burgers",
-            "chinese_restaurant": "Chinese",
-            "fast_food_restaurant": "Fast Food",
-            "french_restaurant": "French",
-            "greek_restaurant": "Greek",
-            "indian_restaurant": "Indian",
-            "italian_restaurant": "Italian",
-            "japanese_restaurant": "Japanese",
-            "korean_restaurant": "Korean",
-            "mexican_restaurant": "Mexican",
-            "middle_eastern_restaurant": "Middle Eastern",
-            "pizza_restaurant": "Pizza",
-            "seafood_restaurant": "Seafood",
-            "steak_house": "Steakhouse",
-            "sushi_restaurant": "Sushi",
-            "thai_restaurant": "Thai",
-            "vegetarian_restaurant": "Vegetarian",
-            "vietnamese_restaurant": "Vietnamese"
-        }
+        self.restaurants_path = os.path.join(DATA_DIR, "restaurants.json")
     
     def load_restaurants(self) -> List[Dict[str, Any]]:
         """Load restaurants from the JSON file"""
@@ -142,8 +141,8 @@ class DataProcessor:
             # Extract cuisine types from the 'types' field
             cuisine_types = set()
             for type_str in restaurant["types"]:
-                if type_str in self.cuisine_mapping:
-                    cuisine_types.add(self.cuisine_mapping[type_str])
+                if type_str in CUISINE_MAPPING:
+                    cuisine_types.add(CUISINE_MAPPING[type_str])
                 elif type_str not in ["restaurant", "food", "point_of_interest", "establishment"]:
                     # Convert snake_case to Title Case for readability
                     formatted_type = " ".join(word.capitalize() for word in type_str.split("_"))
@@ -152,22 +151,14 @@ class DataProcessor:
             restaurant["cuisine_types"] = list(cuisine_types)
             
             # Format price level
-            restaurant["price_display"] = self.price_mapping.get(restaurant["price_level"], "Unknown")
+            restaurant["price_display"] = PRICE_MAPPING.get(restaurant["price_level"], "Unknown")
             
-            # Extract popular dishes, keywords, and create a summary
+            # Add enhanced data if reviews are available
             if restaurant["reviews"]:
-                # Extract popular dishes from reviews
-                popular_dishes = self.extract_popular_dishes(restaurant["reviews"])
-                restaurant["popular_dishes"] = popular_dishes[:5] if popular_dishes else []
-                
-                # Extract descriptive keywords from reviews
-                descriptors = self.extract_descriptors(restaurant["reviews"])
-                restaurant["descriptors"] = descriptors
-                
-                # Calculate review sentiment
+                # Extract popular dishes, keywords, and create a summary
+                restaurant["popular_dishes"] = self.extract_popular_dishes(restaurant["reviews"])
+                restaurant["descriptors"] = self.extract_descriptors(restaurant["reviews"])
                 restaurant["sentiment"] = self.calculate_sentiment(restaurant["reviews"])
-                
-                # Create a restaurant profile summary
                 restaurant["profile"] = self.create_restaurant_profile(restaurant)
             else:
                 restaurant["popular_dishes"] = []
@@ -199,7 +190,7 @@ class DataProcessor:
             
             # Add capitalized phrases that aren't common words
             for phrase in capitalized_phrases:
-                if len(phrase) > 3 and phrase.lower() not in self.common_food_words:
+                if len(phrase) > 3 and phrase.lower() not in COMMON_FOOD_WORDS:
                     potential_dishes.append(phrase)
             
             # Add food phrases
@@ -224,7 +215,7 @@ class DataProcessor:
         all_text = " ".join([review.get("text", "").lower() for review in reviews])
         
         # Look for descriptor patterns
-        for category, patterns in self.descriptor_patterns.items():
+        for category, patterns in DESCRIPTOR_PATTERNS.items():
             for pattern in patterns:
                 if pattern in all_text:
                     descriptors.add(category)
@@ -256,11 +247,11 @@ class DataProcessor:
         cuisine = ", ".join(restaurant.get("cuisine_types", []))
         price = restaurant.get("price_display", "Unknown price range")
         rating = restaurant.get("rating", 0)
-        sentiment = restaurant.get("sentiment", "neutral")
+        city = restaurant.get('city', '')
         descriptors = restaurant.get("descriptors", [])
         popular_dishes = restaurant.get("popular_dishes", [])
         
-        profile = f"{name} is a {cuisine} restaurant in {restaurant.get('city', '')} with a {price} price range."
+        profile = f"{name} is a {cuisine} restaurant in {city} with a {price} price range."
         
         if rating > 0:
             profile += f" It has a rating of {rating}/5."
@@ -283,15 +274,10 @@ class DataProcessor:
         
         for restaurant in restaurants:
             for cuisine in restaurant.get("cuisine_types", []):
-                if cuisine in cuisine_counts:
-                    cuisine_counts[cuisine] += 1
-                else:
-                    cuisine_counts[cuisine] = 1
+                cuisine_counts[cuisine] = cuisine_counts.get(cuisine, 0) + 1
         
         # Sort by count
-        sorted_cuisines = {k: v for k, v in sorted(cuisine_counts.items(), key=lambda item: item[1], reverse=True)}
-        
-        return sorted_cuisines
+        return {k: v for k, v in sorted(cuisine_counts.items(), key=lambda item: item[1], reverse=True)}
     
     def generate_price_stats(self) -> Dict[str, int]:
         """Generate statistics about price levels"""
@@ -304,6 +290,4 @@ class DataProcessor:
             price_counts[price_level] += 1
         
         # Convert to labels
-        labeled_counts = {self.price_mapping[k]: v for k, v in price_counts.items()}
-        
-        return labeled_counts
+        return {PRICE_MAPPING[k]: v for k, v in price_counts.items()}

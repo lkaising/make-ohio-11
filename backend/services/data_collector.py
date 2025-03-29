@@ -55,9 +55,9 @@ class GooglePlacesCollector:
         page_count = 0
         max_pages = 3
         
-        while page_count < max_pages and (next_page_token is None or page_count > 0) and len(results) < MAX_RESTAURANTS_PER_ZIP:
+        while page_count < max_pages and len(results) < MAX_RESTAURANTS_PER_ZIP:
             # If we have a page token from a previous request, use it
-            if next_page_token:
+            if next_page_token and page_count > 0:
                 # Google requires a short delay before using the next_page_token
                 time.sleep(2)
                 params = {"pagetoken": next_page_token, "key": self.api_key}
@@ -108,54 +108,54 @@ class GooglePlacesCollector:
             print(f"Error getting details for place {place_id}: {error_msg}")
             return {}
         
-        if "result" in data:
-            return data["result"]
-        return {}
+        return data.get("result", {})
     
-    def collect_all_restaurants(self, cities: Optional[List[str]] = None) -> None:
+    def collect_restaurants(self, cities: Optional[List[str]] = None, zipcodes: Optional[List[str]] = None) -> None:
         """
-        Collect restaurant data for all Ohio zip codes or specified cities
+        Collect restaurant data by cities or zipcodes
         
         Args:
-            cities: List of city names to collect data for. If None, collects for all cities.
+            cities: List of city names to collect data for
+            zipcodes: List of specific zip codes to collect data for
         """
         all_restaurants = []
         
-        # Process zip codes by city
-        cities_to_process = cities if cities else list(self.ohio_zipcodes.keys())
-        
-        for city in cities_to_process:
-            if city not in self.ohio_zipcodes:
-                print(f"City {city} not found in Ohio zip codes list")
-                continue
-                
-            print(f"Collecting restaurants for {city}...")
-            zipcodes = self.ohio_zipcodes[city]
+        # Process by zipcodes if provided
+        if zipcodes:
+            print(f"Collecting restaurant data for specific zipcodes: {', '.join(zipcodes)}")
+            # Find city for each zipcode if possible
+            zipcode_to_city = {}
+            for city, city_zipcodes in self.ohio_zipcodes.items():
+                for zipcode in city_zipcodes:
+                    zipcode_to_city[zipcode] = city
             
-            # Process each zipcode in this city
-            self._process_zipcodes(zipcodes, city, all_restaurants)
+            self._process_zipcodes(zipcodes, None, all_restaurants, zipcode_to_city)
+        # Otherwise process by cities
+        else:
+            cities_to_process = cities if cities else list(self.ohio_zipcodes.keys())
+            print(f"Collecting restaurant data for cities: {', '.join(cities_to_process)}")
+            
+            for city in cities_to_process:
+                if city not in self.ohio_zipcodes:
+                    print(f"City {city} not found in Ohio zip codes list")
+                    continue
+                    
+                print(f"Collecting restaurants for {city}...")
+                zipcodes = self.ohio_zipcodes[city]
+                
+                # Process each zipcode in this city
+                self._process_zipcodes(zipcodes, city, all_restaurants)
         
         print(f"Collected data for {len(all_restaurants)} restaurants")
+    
+    # Compatibility methods that use the new unified collect_restaurants method
+    def collect_all_restaurants(self, cities: Optional[List[str]] = None) -> None:
+        """Collect restaurant data for all Ohio zip codes or specified cities"""
+        self.collect_restaurants(cities=cities)
     
     def collect_by_zipcodes(self, zipcodes: List[str]) -> None:
-        """
-        Collect restaurant data for specific zip codes
-        
-        Args:
-            zipcodes: List of zip codes to collect data for.
-        """
-        all_restaurants = []
-        
-        # Find city for each zipcode if possible (for better data organization)
-        zipcode_to_city = {}
-        for city, city_zipcodes in self.ohio_zipcodes.items():
-            for zipcode in city_zipcodes:
-                zipcode_to_city[zipcode] = city
-        
-        # Process each zipcode
-        self._process_zipcodes(zipcodes, None, all_restaurants, zipcode_to_city)
-        
-        print(f"Collected data for {len(all_restaurants)} restaurants")
+        """Collect restaurant data for specific zip codes"""
+        self.collect_restaurants(zipcodes=zipcodes)
     
     def _process_zipcodes(self, zipcodes: List[str], default_city: Optional[str] = None, 
                           all_restaurants: Optional[List[Dict[str, Any]]] = None,
@@ -254,7 +254,8 @@ class GooglePlacesCollector:
                     formatted["reviews"].append({
                         "author_name": review.get("author_name", ""),
                         "rating": review.get("rating", 0),
-                        "text": review.get("text", "")
+                        "text": review.get("text", ""),
+                        "time": review.get("time", 0)
                     })
             
             formatted_restaurants.append(formatted)
@@ -264,13 +265,3 @@ class GooglePlacesCollector:
         
         print(f"Saved {len(formatted_restaurants)} restaurants to {output_path} ({new_count} new)")
         print("Run 'python app.py --process' next to process this data for LLM recommendations")
-
-
-class OutscraperCollector:
-    """
-    Alternative service to collect restaurant data using Outscraper API
-    """
-    def __init__(self):
-        # This would be implemented similar to GooglePlacesCollector but using Outscraper API
-        # Leaving this as a placeholder for now
-        pass

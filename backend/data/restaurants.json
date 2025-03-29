@@ -58,17 +58,17 @@
       "Staff"
     ],
     "descriptors": [
-      "romantic",
       "late_night",
       "quick_service",
-      "comfort_food",
       "casual",
-      "family_friendly",
+      "takeout",
       "authentic",
-      "takeout"
+      "family_friendly",
+      "comfort_food",
+      "romantic"
     ],
     "sentiment": "very positive",
-    "profile": "Habibi Grill is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.6/5. It is known for being romantic, late night, quick service, comfort food, casual, family friendly, authentic and takeout. A popular dish is Staff."
+    "profile": "Habibi Grill is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.6/5. It is known for being late night, quick service, casual, takeout, authentic, family friendly, comfort food and romantic. A popular dish is Staff."
   },
   {
     "place_id": "ChIJEYm2JaWPOIgRPlZjn43AyCk",
@@ -123,20 +123,20 @@
       }
     ],
     "cuisine_types": [
-      "Restaurant",
-      "Bar/Pub"
+      "Bar/Pub",
+      "Restaurant"
     ],
     "price_display": "$$",
     "popular_dishes": [
       "The Pizza"
     ],
     "descriptors": [
+      "authentic",
       "comfort_food",
-      "quick_service",
-      "authentic"
+      "quick_service"
     ],
     "sentiment": "very positive",
-    "profile": "The O on Lane is a Restaurant, Bar/Pub restaurant in columbus with a $$ price range. It has a rating of 4.6/5. It is known for being comfort food, quick service and authentic. A popular dish is The Pizza."
+    "profile": "The O on Lane is a Bar/Pub, Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.6/5. It is known for being authentic, comfort food and quick service. A popular dish is The Pizza."
   },
   {
     "place_id": "ChIJHVLuoAuPOIgRanqnJddZggQ",
@@ -198,17 +198,19 @@
       "Jackie",
       "They",
       "With",
-      "This"
+      "This",
+      "However",
+      "Whim"
     ],
     "descriptors": [
-      "romantic",
       "late_night",
-      "authentic",
+      "takeout",
       "healthy",
-      "takeout"
+      "authentic",
+      "romantic"
     ],
     "sentiment": "very positive",
-    "profile": "['plas] is a Restaurant restaurant in columbus with a Unknown price range. It has a rating of 4.8/5. It is known for being romantic, late night, authentic, healthy and takeout. Popular dishes include Ours, Jackie, They, With and This."
+    "profile": "['plas] is a Restaurant restaurant in columbus with a Unknown price range. It has a rating of 4.8/5. It is known for being late night, takeout, healthy, authentic and romantic. Popular dishes include Ours, Jackie, They, With, This, However and Whim."
   },
   {
     "place_id": "ChIJx1J9hpvtN4gR5I2UykFdeUw",
@@ -270,11 +272,11 @@
       "The Chicken"
     ],
     "descriptors": [
-      "quick_service",
-      "authentic"
+      "authentic",
+      "quick_service"
     ],
     "sentiment": "positive",
-    "profile": "Modern Southern Table is a Restaurant restaurant in columbus with a $ price range. It has a rating of 4.4/5. It is known for being quick service and authentic. Popular dishes include Catfish and The Chicken."
+    "profile": "Modern Southern Table is a Restaurant restaurant in columbus with a $ price range. It has a rating of 4.4/5. It is known for being authentic and quick service. Popular dishes include Catfish and The Chicken."
   },
   {
     "place_id": "ChIJDdUNHSiPOIgRsyv2nwaJ4fw",
@@ -336,13 +338,13 @@
       "This"
     ],
     "descriptors": [
+      "authentic",
       "romantic",
-      "casual",
       "quick_service",
-      "authentic"
+      "casual"
     ],
     "sentiment": "very positive",
-    "profile": "The Guild House is a Restaurant restaurant in columbus with a $$$ price range. It has a rating of 4.5/5. It is known for being romantic, casual, quick service and authentic. Popular dishes include The Guild House and This."
+    "profile": "The Guild House is a Restaurant restaurant in columbus with a $$$ price range. It has a rating of 4.5/5. It is known for being authentic, romantic, quick service and casual. Popular dishes include The Guild House and This."
   },
   {
     "place_id": "ChIJ6-GQmtqOOIgRhFrGB14qQIk",
@@ -397,8 +399,8 @@
       }
     ],
     "cuisine_types": [
-      "Restaurant",
-      "Bar/Pub"
+      "Bar/Pub",
+      "Restaurant"
     ],
     "price_display": "$$",
     "popular_dishes": [
@@ -407,13 +409,13 @@
       "Johnathan"
     ],
     "descriptors": [
-      "romantic",
-      "quick_service",
+      "authentic",
       "takeout",
-      "authentic"
+      "romantic",
+      "quick_service"
     ],
     "sentiment": "neutral",
-    "profile": "Bodega is a Restaurant, Bar/Pub restaurant in columbus with a $$ price range. It has a rating of 4.4/5. It is known for being romantic, quick service, takeout and authentic. Popular dishes include They, Overall and Johnathan."
+    "profile": "Bodega is a Bar/Pub, Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.4/5. It is known for being authentic, takeout, romantic and quick service. Popular dishes include They, Overall and Johnathan."
   },
   {
     "place_id": "ChIJS9HaokePOIgRz2M6mceHz7w",
@@ -476,14 +478,14 @@
       "Everything"
     ],
     "descriptors": [
-      "romantic",
       "quick_service",
-      "comfort_food",
       "casual",
-      "family_friendly"
+      "family_friendly",
+      "comfort_food",
+      "romantic"
     ],
     "sentiment": "very positive",
-    "profile": "Domo Sushi Kitchen Bar is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.6/5. It is known for being romantic, quick service, comfort food, casual and family friendly. Popular dishes include Japanese, They and Everything."
+    "profile": "Domo Sushi Kitchen Bar is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.6/5. It is known for being quick service, casual, family friendly, comfort food and romantic. Popular dishes include Japanese, They and Everything."
   },
   {
     "place_id": "ChIJd9HykNGOOIgRNwXBMNxK8lE",
@@ -545,15 +547,16 @@
       "Bestie",
       "This",
       "Wait",
-      "Parking"
+      "Parking",
+      "Beverages"
     ],
     "descriptors": [
       "romantic",
-      "casual",
-      "quick_service"
+      "quick_service",
+      "casual"
     ],
     "sentiment": "positive",
-    "profile": "Drunch Eatery + Bar is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.2/5. It is known for being romantic, casual and quick service. Popular dishes include Rating, Bestie, This, Wait and Parking."
+    "profile": "Drunch Eatery + Bar is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.2/5. It is known for being romantic, quick service and casual. Popular dishes include Rating, Bestie, This, Wait, Parking and Beverages."
   },
   {
     "place_id": "ChIJ693jiRqPOIgRSFEovtA8DyQ",
@@ -615,12 +618,12 @@
       "Tuesday"
     ],
     "descriptors": [
-      "casual",
+      "authentic",
       "quick_service",
-      "authentic"
+      "casual"
     ],
     "sentiment": "positive",
-    "profile": "Boom Boom Tacos Tequila & Mezcal is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.8/5. It is known for being casual, quick service and authentic. Popular dishes include This and Tuesday."
+    "profile": "Boom Boom Tacos Tequila & Mezcal is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.8/5. It is known for being authentic, quick service and casual. Popular dishes include This and Tuesday."
   },
   {
     "place_id": "ChIJiSApCwCPOIgRXfYfpyOYpbY",
@@ -684,11 +687,11 @@
     ],
     "descriptors": [
       "late_night",
-      "quick_service",
-      "authentic"
+      "authentic",
+      "quick_service"
     ],
     "sentiment": "very positive",
-    "profile": "Dave's Hot Chicken is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.7/5. It is known for being late night, quick service and authentic. Popular dishes include Trey, Hot Chicken and Dave."
+    "profile": "Dave's Hot Chicken is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.7/5. It is known for being late night, authentic and quick service. Popular dishes include Trey, Hot Chicken and Dave."
   },
   {
     "place_id": "ChIJbS7jiNeOOIgR3FFM_ntMDGQ",
@@ -752,15 +755,15 @@
       "When"
     ],
     "descriptors": [
-      "romantic",
       "quick_service",
       "casual",
-      "family_friendly",
+      "takeout",
       "authentic",
-      "takeout"
+      "family_friendly",
+      "romantic"
     ],
     "sentiment": "positive",
-    "profile": "Forno Kitchen + Bar is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.5/5. It is known for being romantic, quick service, casual, family friendly, authentic and takeout. Popular dishes include Columbus, Forno, Arancini and When."
+    "profile": "Forno Kitchen + Bar is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.5/5. It is known for being quick service, casual, takeout, authentic, family friendly and romantic. Popular dishes include Columbus, Forno, Arancini and When."
   },
   {
     "place_id": "ChIJOVuSw3SPOIgRAUZkpgIiVJc",
@@ -821,14 +824,14 @@
       "This"
     ],
     "descriptors": [
-      "romantic",
       "late_night",
       "quick_service",
+      "authentic",
       "comfort_food",
-      "authentic"
+      "romantic"
     ],
     "sentiment": "very positive",
-    "profile": "Alqueria is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.7/5. It is known for being romantic, late night, quick service, comfort food and authentic. A popular dish is This."
+    "profile": "Alqueria is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.7/5. It is known for being late night, quick service, authentic, comfort food and romantic. A popular dish is This."
   },
   {
     "place_id": "ChIJfYztZm-JOIgR9nVU-hZMq3Q",
@@ -889,12 +892,12 @@
       "Highly"
     ],
     "descriptors": [
+      "authentic",
       "comfort_food",
-      "quick_service",
-      "authentic"
+      "quick_service"
     ],
     "sentiment": "very positive",
-    "profile": "TaKorea is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.5/5. It is known for being comfort food, quick service and authentic. A popular dish is Highly."
+    "profile": "TaKorea is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.5/5. It is known for being authentic, comfort food and quick service. A popular dish is Highly."
   },
   {
     "place_id": "ChIJZXyD9WiPOIgReBTT8HhdfPo",
@@ -955,11 +958,11 @@
       "This"
     ],
     "descriptors": [
-      "healthy",
-      "quick_service"
+      "quick_service",
+      "healthy"
     ],
     "sentiment": "positive",
-    "profile": "Roots Natural Kitchen is a Restaurant restaurant in columbus with a $ price range. It has a rating of 4.3/5. It is known for being healthy and quick service. A popular dish is This."
+    "profile": "Roots Natural Kitchen is a Restaurant restaurant in columbus with a $ price range. It has a rating of 4.3/5. It is known for being quick service and healthy. A popular dish is This."
   },
   {
     "place_id": "ChIJNZ2Cp_SPOIgRc-UNblS_w_o",
@@ -1018,13 +1021,13 @@
     "price_display": "$$",
     "popular_dishes": [],
     "descriptors": [
+      "authentic",
       "comfort_food",
-      "casual",
       "quick_service",
-      "authentic"
+      "casual"
     ],
     "sentiment": "very positive",
-    "profile": "Yoshi (OSU Campus) is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.5/5. It is known for being comfort food, casual, quick service and authentic."
+    "profile": "Yoshi (OSU Campus) is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.5/5. It is known for being authentic, comfort food, quick service and casual."
   },
   {
     "place_id": "ChIJO5clh9eOOIgR4XB1bfcD6sg",
@@ -1087,11 +1090,11 @@
     ],
     "descriptors": [
       "romantic",
-      "casual",
-      "quick_service"
+      "quick_service",
+      "casual"
     ],
     "sentiment": "very positive",
-    "profile": "Press Grill is a Restaurant restaurant in columbus with a $ price range. It has a rating of 4.5/5. It is known for being romantic, casual and quick service. Popular dishes include They and Definitely."
+    "profile": "Press Grill is a Restaurant restaurant in columbus with a $ price range. It has a rating of 4.5/5. It is known for being romantic, quick service and casual. Popular dishes include They and Definitely."
   },
   {
     "place_id": "ChIJATrQ7QePOIgRZWAI5WjB-oY",
@@ -1147,21 +1150,21 @@
       }
     ],
     "cuisine_types": [
-      "Restaurant",
       "Night Club",
-      "Bar/Pub"
+      "Bar/Pub",
+      "Restaurant"
     ],
     "price_display": "$$",
     "popular_dishes": [
       "Everything"
     ],
     "descriptors": [
-      "quick_service",
+      "authentic",
       "takeout",
-      "authentic"
+      "quick_service"
     ],
     "sentiment": "very positive",
-    "profile": "Fireproof Restaurant is a Restaurant, Night Club, Bar/Pub restaurant in columbus with a $$ price range. It has a rating of 4.3/5. It is known for being quick service, takeout and authentic. A popular dish is Everything."
+    "profile": "Fireproof Restaurant is a Night Club, Bar/Pub, Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.3/5. It is known for being authentic, takeout and quick service. A popular dish is Everything."
   },
   {
     "place_id": "ChIJe8m9iSWMOIgRM6KsMjI_Hs4",
@@ -1225,15 +1228,15 @@
       "Taylor"
     ],
     "descriptors": [
-      "romantic",
       "late_night",
-      "casual",
-      "authentic",
       "fancy",
-      "takeout"
+      "casual",
+      "takeout",
+      "authentic",
+      "romantic"
     ],
     "sentiment": "very positive",
-    "profile": "MODA Restaurant and Bar - Columbus is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.5/5. It is known for being romantic, late night, casual, authentic, fancy and takeout. Popular dishes include They, Moda Burger, Will and Taylor."
+    "profile": "MODA Restaurant and Bar - Columbus is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.5/5. It is known for being late night, fancy, casual, takeout, authentic and romantic. Popular dishes include They, Moda Burger, Will and Taylor."
   },
   {
     "place_id": "ChIJKwAD-riOOIgRca8ZNY_mJkk",
@@ -1288,8 +1291,8 @@
       }
     ],
     "cuisine_types": [
-      "Restaurant",
-      "Bar/Pub"
+      "Bar/Pub",
+      "Restaurant"
     ],
     "price_display": "$",
     "popular_dishes": [
@@ -1297,11 +1300,11 @@
       "Tank"
     ],
     "descriptors": [
-      "quick_service",
-      "authentic"
+      "authentic",
+      "quick_service"
     ],
     "sentiment": "very positive",
-    "profile": "Ethyl & Tank is a Restaurant, Bar/Pub restaurant in columbus with a $ price range. It has a rating of 4.2/5. It is known for being quick service and authentic. Popular dishes include Ethyl and Tank."
+    "profile": "Ethyl & Tank is a Bar/Pub, Restaurant restaurant in columbus with a $ price range. It has a rating of 4.2/5. It is known for being authentic and quick service. Popular dishes include Ethyl and Tank."
   },
   {
     "place_id": "ChIJkzsp0LWPOIgRIHlXPdOAXSs",
@@ -1360,13 +1363,223 @@
     "price_display": "$",
     "popular_dishes": [],
     "descriptors": [
-      "quick_service",
-      "comfort_food",
-      "authentic",
       "affordable",
-      "takeout"
+      "takeout",
+      "authentic",
+      "comfort_food",
+      "quick_service"
     ],
     "sentiment": "positive",
-    "profile": "OX-B's is a Restaurant restaurant in columbus with a $ price range. It has a rating of 4.6/5. It is known for being quick service, comfort food, authentic, affordable and takeout."
+    "profile": "OX-B's is a Restaurant restaurant in columbus with a $ price range. It has a rating of 4.6/5. It is known for being affordable, takeout, authentic, comfort food and quick service."
+  },
+  {
+    "place_id": "ChIJHTn42nWPOIgR-7OydJyB-WY",
+    "name": "Pelino's Pasta",
+    "address": "245 King Ave, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 0,
+    "lng": 0,
+    "rating": 4.4,
+    "user_ratings_total": 319,
+    "price_level": 0,
+    "website": "",
+    "phone": "",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "Müs Chip",
+        "rating": 2,
+        "text": "Disappointing experience that fell far short of its price tag. Opted for the tasting menu. At over $115 per person, the portions were laughably small, with the only generously sized dish being the ganache cheesecake—an odd contrast to the rest of the meal. While some dishes, like the risotto, truffle bruschetta, and pesto gnocchi, were flavorful, the overall tasting menu failed to deliver the balance of quality and portion expected from a fine dining experience. The classic parmesan pasta tossed in a parmesan wheel was visually impressive but overwhelmingly salty and pungent. The salad, which seemed more like a palette cleanser, was nothing more than a few arugula leaves, some citrus chunks and tiny anchovy slivers, making it an noticeably underwhelming course. The mocktails, despite their premium price, were unimpressive—one tasted like a basic lemon soda, and the other was a bland carbonated orange drink. Service, while friendly, was slow, with long gaps between courses that disrupted the dining flow. The establishment was cozy but a little loud between patron chatter. To make matters worse, our group, which does not eat pork, was served tortellini with prosciutto, requiring a return (we informed before the meal started of no pork items). The lack of protein across the board made the meal feel incomplete, and ultimately, we left unsatisfied and feeling overcharged. Despite the kind staff, the overall experience was underwhelming, and we won’t be returning.",
+        "time": 1742334706
+      },
+      {
+        "author_name": "Sophia Hammonds",
+        "rating": 5,
+        "text": "Came to celebrate Valentine's Day and it was our first time at the restaurant. We opted for the full tasting menu and we were not disappointed. Every dish was savory and delicious. Alicia, our server, was unassuming and intentional in her care of our space. Each dish arrived with a story of historical and cultural significance, we were utterly transported. Such an unpretentious vibe for all the impeccabilities being served! The owner Christina (sp?) came by to greet us and shared with us her family's love and roots in the culture and cuisine. It was an overall 10/10 experience.",
+        "time": 1739998377
+      },
+      {
+        "author_name": "Sean Campbell",
+        "rating": 5,
+        "text": "Sean with Offline - BEST TIRAMISU !! Now this was an upscale restaurant in the heart of Italian village.  The food was made fresh and it was very elegant and upscale.  Portions were a little small but they used quality ingredients.  We heard the menu changes monthly, and the set up is you go with a 3, 4, or 7 course dinner selecting from different options.  (7courses is set I believe).  they also have wine pairings for each course but we didn’t participate because of dry January :/",
+        "time": 1736368389
+      },
+      {
+        "author_name": "Sarah Bugner",
+        "rating": 5,
+        "text": "From the January menu (theme was Best of 2024) the squash and hazelnut pasta was my favorite. The cacio e Pepe tossed in the cheese wheel table-side is also very good and a classic menu item. Highly recommend the wine pairing too! Portion sizes are not large but not so small that a 3 course meal isn’t enough, though if you’re hungrier I’d recommend the 4 course option. The waiters do a full menu run-through before you order so you know how everything is prepared (I.e. what all of the Italian words are) which is great so you don’t have to ask or secretly google anything. The staff are all super nice and the hostess that night (who might be the owner?) is from Italy and knows a lot about the wine list which is an impressive selection of Italian glasses from all throughout Italy (I was particularly surprised about how many options there were from less common Italian regions, white wines in particular). I will definitely be returning to try more menu items and wines!",
+        "time": 1740711531
+      },
+      {
+        "author_name": "Angelo Serra",
+        "rating": 2,
+        "text": "Decided to try Pelino's for a night out with our oldest son on New Years' Day.   The restaurant is in an older building with exposed brick and a nice, small-ish dining room with tasteful art on the walls.  The kitchen is open, which is always a plus.  We were greeted on arrival (nice lady from Bologna), and seated promptly for our reservation.\n\nOur waiter was very good - knew the menu well, had his pronunciation down, and was not intrusive in handling the table.\n\nService and aesthetics aside, the dining room was a bit chilly.  Even walking through towards the kitchen, there wasn't a lot of temperature change.\n\nYou are guided to a three-course meal and strongly encouraged to not go a la carte.  Some of the \"add ons\" were pushed a bit.  Know that a bottle of water will be $7.50,  and the focaccia (three small strips of focaccia with a tomato  paste on top and [unsure why] some olive oil to dip) is $8.50.\n\nThe meal was significantly overpriced for what it was.  My wife's Tortellini in Brodo had four tortellini and about an ounce of broth on them.  My Risotto dell'Inverno had maybe five spoonfuls of risotto and was out in under ten minutes.  The Carbonara served was equally about ten bites of a tubetti-type pasta with a few not-very-crisp pieces of guanciale on top.\n\nDessert-wise, my panna cotta was OK, I ended up eating only the panna cotta itself and not the bizarre mixture of spiced smear of something, differently spiced crumbles, and oddly spiced whipped cream dots on the plate.  The tiramisu that came to the table was unique in that it was served in a moka pot, but was otherwise marginal.   My wife's Il Gioiello dell'Inverno was marginal at best.  Finally, expect a $4 espresso if you want to cap the dinner off.\n\nA three course \"meal\" (a tiny antipasti, pasta, and a desert) , glass of wine, two bottles of water, a blood orange soda, and facaccia coming to just over $225 should not have you walking away hungry.  I guess I am grateful that they bill themselves as an \"osteria\" instead of a \"ristorante\" as the bill would have been significantly higher.\n\nSave your self a significant amount of money, this is just not worth it.",
+        "time": 1737233565
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "Unknown",
+    "popular_dishes": [
+      "Italian",
+      "Service",
+      "January",
+      "Italy",
+      "Inverno"
+    ],
+    "descriptors": [
+      "late_night",
+      "romantic",
+      "fancy",
+      "casual",
+      "expensive",
+      "family_friendly",
+      "comfort_food",
+      "quick_service"
+    ],
+    "sentiment": "neutral",
+    "profile": "Pelino's Pasta is a Restaurant restaurant in columbus with a Unknown price range. It has a rating of 4.4/5. It is known for being late night, romantic, fancy, casual, expensive, family friendly, comfort food and quick service. Popular dishes include Italian, Service, January, Italy and Inverno."
+  },
+  {
+    "place_id": "ChIJe8fnE8CPOIgRa45QXkUVxyw",
+    "name": "bb.q Chicken Columbus",
+    "address": "17 E Lane Ave, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 0,
+    "lng": 0,
+    "rating": 4.5,
+    "user_ratings_total": 268,
+    "price_level": 2,
+    "website": "",
+    "phone": "",
+    "types": [
+      "restaurant",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "Corey Hannigan",
+        "rating": 4,
+        "text": "Your classic Korean fried chicken with so many options to choose from! Great flavor, crispy and good value for what you pay. For some reason they had the place so hot inside during winter. The service was great and the place was not very busy for a weekend time. Was nice to see they had a bar area and served alcohol since it wasn’t super clear online. Always get a Sapporo draft and it was refreshing as usual. We tried the honey garlic and Gangnam style wings and both tasted great. I wish I could give them 4.5*, just wish it wasn’t as hot and they had happy hour or drink specials to checkout! I really hope they make it here as this is a difficult location. Will have to try tiger sugar Nextdoor for drinks next time.",
+        "time": 1737315263
+      },
+      {
+        "author_name": "Hong Qiu",
+        "rating": 4,
+        "text": "Good food, great location! The wings were fried golden and crispy, sweet potato fries were outstanding. I wish that the wings themselves are also slightly flavored and not completely relying on the sauce to provide the flavor.",
+        "time": 1739134554
+      },
+      {
+        "author_name": "Yashira",
+        "rating": 5,
+        "text": "Chicken pieces are big and they give you like 8 boneless the taste is amazing , I gave them 4 star because when I went back to eat my leftovers had a foul smell and I threw up . But honestly I'm so fat I'll go again it was too good!",
+        "time": 1729171399
+      },
+      {
+        "author_name": "William Diaz",
+        "rating": 5,
+        "text": "The Food was amazing and Christine , our server was so kind and helpful. Our Food came out hot and fresh and Christine never left us unattended. The only place where spending alot of money on wings is justified!",
+        "time": 1742678282
+      },
+      {
+        "author_name": "MJ “Mindy” MJ",
+        "rating": 5,
+        "text": "1st time dining in, it was secluded and comfy with really good hot fresh chicken. Right across from CVS so i run my errands then sit n relax. Even the service is friendly and warm. About $15 but the chicken by itself is worth it, It came with white pickle radish which was yummy yummy and  free drink refills. Left satisfied with food leftover for dinner later.",
+        "time": 1738826381
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "$$",
+    "popular_dishes": [
+      "Christine"
+    ],
+    "descriptors": [
+      "late_night",
+      "authentic",
+      "affordable",
+      "comfort_food"
+    ],
+    "sentiment": "very positive",
+    "profile": "bb.q Chicken Columbus is a Restaurant restaurant in columbus with a $$ price range. It has a rating of 4.5/5. It is known for being late night, authentic, affordable and comfort food. A popular dish is Christine."
+  },
+  {
+    "place_id": "ChIJqQwuguyPOIgRLB_gbw8Lj5w",
+    "name": "Santos Restaurant & Bar",
+    "address": "1079 N High St, Columbus, OH 43201, USA",
+    "city": "columbus",
+    "zipcode": "43201",
+    "lat": 0,
+    "lng": 0,
+    "rating": 3.9,
+    "user_ratings_total": 293,
+    "price_level": 0,
+    "website": "",
+    "phone": "",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "reviews": [
+      {
+        "author_name": "Keithia Toles",
+        "rating": 4,
+        "text": "I visited with a friend for dinner on a Saturday night. I would rate the  service as a 5/5 as the waitress and management were very attentive. I would give the food a 3.5/ 5 as the amount of food my friend got with their meal was not great for the price, and while my food tasted okay and my portion was plentiful, it didn’t taste amazing. My drink was a 3.5/5 as the presentation was nice but it seemed to be low on alcohol. My cake was a 4/5 as it was moist and flavorful. The ambiance was a 5/5 as the restaurant was beautifully decorated and great for photos. Overall, if you are interested in visiting this restaurant, I’d say give it a try.",
+        "time": 1692753036
+      },
+      {
+        "author_name": "Anitra S",
+        "rating": 5,
+        "text": "First time here for a date night and decor of this place is amazing! The service was great. It was a slow night which worked in our favor.  Our waiter was very knowledgeable and consistently available. We started off with the devils eggs they were good not amazing but good. I had the chophouse punch and I didn’t care for it. I also had the firecracker sushi which was definitely delicious!! Very impressive and it was beautifully plated. My wife had the filet steak and she a bit disappointed that it had little to no flavor but was cooked to her liking. The mashed potatoes with added lobster was enjoyable. The brussels sprouts surprisingly were extremely flavorful and like nothing I’ve tasted before and I’ve tried some and definitely wasn’t a fan but they’ve made me one of theirs for sure!  We were consistently checked on throughout our meal and the clean up as we finished one dish was impressive. This is definitely a place you want to look nice and take many pictures. The overall experience here was definitely delightful. We will be back!",
+        "time": 1677805086
+      },
+      {
+        "author_name": "K. WW",
+        "rating": 3,
+        "text": "The atmosphere was young, colorful, and vibrant  . My husband loved his faroe island salmon. The potatoes in his dish was delicious. His dish tasted better than mine. I ordered the blackened fish snapper, I didn't like it.The drinks were good. The atmosphere created a nice date night.",
+        "time": 1697075025
+      },
+      {
+        "author_name": "R. Knights",
+        "rating": 3,
+        "text": "So I know this review might be confusing, because my wife and I had a fairly good time. Let's start with the atmosphere looking more like a club, than an actual restaurant.  Accompanied with pop music that you would find at a club. We were seated at a high table (even tho I reserved outside seating). I should've pushed for what I requested, as you will read about later. When we walked into the restaurant, the 1st thing that I noticed was some groups brought there kids. Now mind you, the average cost for an entree is around 40 dollars per plate. Once seated, my wife and I noticed one group, who allowed their toddler to jump and run around one of the booths. This booth happened to be right next to our table. With pricing between 30 to 60 dollars per plate, I was quite confused on why the staff allowed those to take place. At any rate, our waiter was very knowledgeable and helpful on drinks and food. Although we enjoyed our meal, while celebrating our wedding anniversary, we couldn't get over the toddler constantly running and jumping on the booth next to us. And the craziest part was when that group finally decided to leave, they were replaced with another group coming in, celebrating their 1 year olds birthday. The combined anesthetics of this restaurant is not children friendly, nor should it be.\n\nSantos should require an age restriction and parents should keepbtjere children in check. I didn't spend 250.00 on a meal to be interrupted by a lack of babysitting. Other than that, the food was excellent.",
+        "time": 1692561313
+      },
+      {
+        "author_name": "Katie Mansfield",
+        "rating": 5,
+        "text": "First visit, late afternoon brunch.\n\nPros:\n-Had the place mostly to ourselves\n-Excellent service, our waiter was attentive but never overbearing\n-Food came out quick and was the perfect temperature\n-Beautiful restaurant, nice ambiance\n-Effort to make the day special, strawberry jello-shots\n\nCons:\n-Half of our party of 6 was not impressed with the food. Nothing exactly wrong but not anything they’d order again.\n\nWhile some of us were disappointed in the food, all of us had a great experience and would try other items next time. At the end of the meal our server brought over complimentary strawberry Jell-O shots because we were celebrating a birthday. It was a fun surprise and we appreciated the extra effort. The staff made us feel so welcome.",
+        "time": 1643839210
+      }
+    ],
+    "cuisine_types": [
+      "Restaurant"
+    ],
+    "price_display": "Unknown",
+    "popular_dishes": [
+      "First",
+      "This"
+    ],
+    "descriptors": [
+      "late_night",
+      "family_friendly",
+      "romantic",
+      "quick_service"
+    ],
+    "sentiment": "positive",
+    "profile": "Santos Restaurant & Bar is a Restaurant restaurant in columbus with a Unknown price range. It has a rating of 3.9/5. It is known for being late night, family friendly, romantic and quick service. Popular dishes include First and This."
   }
 ]

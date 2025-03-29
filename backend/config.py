@@ -5,16 +5,8 @@ from dotenv import load_dotenv
 dotenv_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.env')
 load_dotenv(dotenv_path=dotenv_path)
 
-print(f"API Key loaded: {os.getenv('GOOGLE_PLACES_API_KEY') is not None}")
-
 # API Keys
 GOOGLE_PLACES_API_KEY = os.getenv("GOOGLE_PLACES_API_KEY")
-# Or if using Outscraper
-# OUTSCRAPER_API_KEY = os.getenv("OUTSCRAPER_API_KEY")
-
-# LLM API Keys (for the second component)
-# OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-# ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 
 # Ohio geographical boundaries (for broader searches if needed)
 OHIO_BOUNDS = {
