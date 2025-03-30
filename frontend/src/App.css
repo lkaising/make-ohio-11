@@ -139,11 +139,13 @@ body {
   margin-bottom: 0;
 }
 
+/* Updated footer to match header styling */
 .footer {
-  text-align: center;
-  padding: 1.5rem;
-  background-color: var(--secondary-color);
+  background: linear-gradient(135deg, #ff4b2b 0%, #ff416c 100%);
   color: white;
+  padding: 2.5rem 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
   font-size: 0.9rem;
 }
 
